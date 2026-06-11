@@ -56,316 +56,269 @@ export const LOCATIONS = [
   'Montreal', 'San Diego', 'Atlanta', 'Miami', 'Denver',
 ];
 
-// Auto-updated listings (last update: 2026-06-11T00:20:56.769Z)
+// Auto-updated listings (last update: 2026-06-11T08:01:21.266Z)
 export const SAMPLE_LISTINGS = [
   {
     "id": 100,
     "category": "housing",
-    "title": "Beautiful Renovated 1BR w/ Dining Room | Dishwasher + Laundry 11103",
-    "description": "Beautiful Renovated 1BR w/ Dining Room | Dishwasher + Laundry 11103 — Astoria",
-    "price": "$1,130",
-    "location": "Astoria",
+    "title": "East Village Spacious 1BR – Near Tompkins Square Park Area",
+    "description": "East Village Spacious 1BR – Near Tompkins Square Park Area — Manhattan",
+    "price": "$1,600",
+    "location": "Manhattan",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://newyork.craigslist.org/que/apa/d/new-york-beautiful-renovated-1br-dining/7940170823.html"
+    "featured": false,
+    "link": "https://newyork.craigslist.org/mnh/apa/d/new-york-east-village-spacious-1br-near/7940209596.html"
   },
   {
     "id": 101,
     "category": "housing",
-    "title": "1BR Rent Stabilized with or without Furniture",
-    "description": "1BR Rent Stabilized with or without Furniture — Flushing",
-    "price": "$2,000",
-    "location": "Flushing",
+    "title": "Murray Hill 1BR – Bright & Spacious",
+    "description": "Murray Hill 1BR – Bright & Spacious — Murray Hill",
+    "price": "$1,498",
+    "location": "Murray Hill",
     "languages": [
-      "en",
-      "zh"
+      "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://newyork.craigslist.org/que/apa/d/flushing-1br-rent-stabilized-with-or/7940067993.html"
+    "featured": false,
+    "link": "https://newyork.craigslist.org/que/apa/d/flushing-murray-hill-1br-bright-spacious/7940209382.html"
   },
   {
     "id": 102,
     "category": "housing",
-    "title": "Modern 1-Bedroom Rental in Park Slope, Brooklyn – Near Prospect Park",
-    "description": "Modern 1-Bedroom Rental in Park Slope, Brooklyn – Near Prospect Park — Brooklyn",
-    "price": "$1,055",
-    "location": "Brooklyn",
+    "title": "1 Bedroom rego park",
+    "description": "1 Bedroom rego park — Rego Park",
+    "price": "$2,600",
+    "location": "Rego Park",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://newyork.craigslist.org/brk/apa/d/brooklyn-modern-bedroom-rental-in-park/7940167395.html"
+    "link": "https://newyork.craigslist.org/que/apa/d/rego-park-bedroom-rego-park/7940209293.html"
   },
   {
     "id": 103,
     "category": "housing",
-    "title": "Massive 2BR, Extra Storage,Heat& Hot Water, Private Yard, Laundry Line",
-    "description": "Massive 2BR, Extra Storage,Heat& Hot Water, Private Yard, Laundry Line — brooklyn",
-    "price": "$3,500",
-    "location": "brooklyn",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://newyork.craigslist.org/brk/apa/d/ridgewood-massive-2br-extra-storageheat/7940165782.html"
-  },
-  {
-    "id": 104,
-    "category": "housing",
-    "title": "High-Floor 1BR in Prospect Heights – Skyline Views & In-Unit W/D!",
-    "description": "High-Floor 1BR in Prospect Heights – Skyline Views & In-Unit W/D! — Prospect Heights",
-    "price": "$1,150",
-    "location": "Prospect Heights",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://newyork.craigslist.org/brk/apa/d/brooklyn-high-floor-1br-in-prospect/7940165745.html"
-  },
-  {
-    "id": 105,
-    "category": "housing",
-    "title": "Renovated Modern 1 bed/1 bath residence in prime East Village.",
-    "description": "Renovated Modern 1 bed/1 bath residence in prime East Village. — East Village",
-    "price": "$1,099",
-    "location": "East Village",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://newyork.craigslist.org/brk/apa/d/new-york-renovated-modern-bed-bath/7940163758.html"
-  },
-  {
-    "id": 106,
-    "category": "housing",
-    "title": "199 Malcolm X - 3 Bedroom Apartment for Rent with private deck.",
-    "description": "199 Malcolm X - 3 Bedroom Apartment for Rent with private deck. — Brooklyn",
-    "price": "$4,195",
-    "location": "Brooklyn",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://newyork.craigslist.org/brk/apa/d/brooklyn-199-malcolm-bedroom-apartment/7940162548.html"
-  },
-  {
-    "id": 107,
-    "category": "housing",
-    "title": "Bright & Spacious 1BR w/Large Windows & Laundry in building",
-    "description": "Bright & Spacious 1BR w/Large Windows & Laundry in building — Bed Stuy",
-    "price": "$1,047",
-    "location": "Bed Stuy",
+    "title": "Harlem Modern 1BR – Renovated Manhattan Living Space",
+    "description": "Harlem Modern 1BR – Renovated Manhattan Living Space — manhattan",
+    "price": "$1,600",
+    "location": "manhattan",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://newyork.craigslist.org/brk/apa/d/brooklyn-bright-spacious-1br-large/7940161938.html"
+    "link": "https://newyork.craigslist.org/mnh/apa/d/new-york-harlem-modern-1br-renovated/7940209113.html"
   },
   {
-    "id": 108,
+    "id": 104,
     "category": "housing",
-    "title": "Studio Apartment Available NOW near Lakewood Mall!!!",
-    "description": "Studio Apartment Available NOW near Lakewood Mall!!! — Lakewood",
-    "price": "$2,015",
-    "location": "Lakewood",
+    "title": "Carroll Gardens 1BR – Bright & Spacious",
+    "description": "Carroll Gardens 1BR – Bright & Spacious — Cobble Hill",
+    "price": "$1,777",
+    "location": "Cobble Hill",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://losangeles.craigslist.org/lgb/apa/d/artesia-studio-apartment-available-now/7938783725.html"
+    "link": "https://newyork.craigslist.org/brk/apa/d/brooklyn-carroll-gardens-1br-bright/7940209071.html"
+  },
+  {
+    "id": 105,
+    "category": "housing",
+    "title": "Studio Apartment in a Beautiful Mansion Light & Gas Included",
+    "description": "Studio Apartment in a Beautiful Mansion Light & Gas Included — crown heights",
+    "price": "$1,795",
+    "location": "crown heights",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://newyork.craigslist.org/brk/apa/d/brooklyn-studio-apartment-in-beautiful/7940205802.html"
+  },
+  {
+    "id": 106,
+    "category": "housing",
+    "title": "Large 3BR apartment 2nd floor + Balcony",
+    "description": "Large 3BR apartment 2nd floor + Balcony — Bensonhurst",
+    "price": "$3,300",
+    "location": "Bensonhurst",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://newyork.craigslist.org/brk/apa/d/brooklyn-large-3br-apartment-2nd-floor/7940204868.html"
+  },
+  {
+    "id": 107,
+    "category": "housing",
+    "title": "Douglaston Three Bedrooms Two Full Baths",
+    "description": "Douglaston Three Bedrooms Two Full Baths — Douglaston",
+    "price": "$3,200",
+    "location": "Douglaston",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://newyork.craigslist.org/que/apa/d/little-neck-douglaston-three-bedrooms/7940204852.html"
+  },
+  {
+    "id": 108,
+    "category": "housing",
+    "title": "Barbecues, Range and Oven, Dishwasher",
+    "description": "Barbecues, Range and Oven, Dishwasher — Santa Clarita",
+    "price": "$2,839",
+    "location": "Santa Clarita",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": true,
+    "link": "https://losangeles.craigslist.org/ant/apa/d/canyon-country-barbecues-range-and-oven/7937992182.html"
   },
   {
     "id": 109,
     "category": "housing",
-    "title": "Studio Close to 101 Freeway - Pool, Covered Parking, Dishwasher, Patio",
-    "description": "Studio Close to 101 Freeway - Pool, Covered Parking, Dishwasher, Patio — Sherman Oaks",
-    "price": "$1,649",
+    "title": "Newly Remodeled Upper Level One Bedroom Parking Included",
+    "description": "Newly Remodeled Upper Level One Bedroom Parking Included — North Hills",
+    "price": "$1,750",
+    "location": "North Hills",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/sfv/apa/d/north-hills-newly-remodeled-upper-level/7940208400.html"
+  },
+  {
+    "id": 110,
+    "category": "housing",
+    "title": "Stop Looking & Start Living at Villa Del Sol!  Studio, Patio, Pool!",
+    "description": "Stop Looking & Start Living at Villa Del Sol!  Studio, Patio, Pool! — Chatsworth",
+    "price": "$1,515",
+    "location": "Chatsworth",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/sfv/apa/d/chatsworth-stop-looking-start-living-at/7937589775.html"
+  },
+  {
+    "id": 111,
+    "category": "housing",
+    "title": "Berber Carpeting, ATM Machine, Closet Organizers",
+    "description": "Berber Carpeting, ATM Machine, Closet Organizers — 616 St. Paul Ave., Los Angeles, CA",
+    "price": "$2,109",
+    "location": "616 St. Paul Ave., Los Angeles, CA",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": true,
+    "link": "https://losangeles.craigslist.org/lac/apa/d/los-angeles-berber-carpeting-atm/7940209316.html"
+  },
+  {
+    "id": 112,
+    "category": "housing",
+    "title": "2 Bed, Jogging Track, Friendly and Great Staff",
+    "description": "2 Bed, Jogging Track, Friendly and Great Staff — 722 Bixel St., Los Angeles, CA",
+    "price": "$2,499",
+    "location": "722 Bixel St., Los Angeles, CA",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": true,
+    "link": "https://losangeles.craigslist.org/lac/apa/d/los-angeles-bed-jogging-track-friendly/7939755810.html"
+  },
+  {
+    "id": 113,
+    "category": "housing",
+    "title": "Laundry Facilities, Covered Parking, Gas Range",
+    "description": "Laundry Facilities, Covered Parking, Gas Range — westside-southbay-310",
+    "price": "$1,825",
+    "location": "westside-southbay-310",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": true,
+    "link": "https://losangeles.craigslist.org/wst/apa/d/torrance-laundry-facilities-covered/7936886221.html"
+  },
+  {
+    "id": 114,
+    "category": "housing",
+    "title": "Dishwasher, Stove, Central AC/Heat",
+    "description": "Dishwasher, Stove, Central AC/Heat — 1537 7th St, Santa Monica, CA",
+    "price": "$2,430",
+    "location": "1537 7th St, Santa Monica, CA",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/wst/apa/d/santa-monica-dishwasher-stove-central/7935907778.html"
+  },
+  {
+    "id": 115,
+    "category": "housing",
+    "title": "Beautiful One Bedroom with Pool, Pilates, Dance Studio & More!!!",
+    "description": "Beautiful One Bedroom with Pool, Pilates, Dance Studio & More!!! — Sherman Oaks",
+    "price": "$2,635",
     "location": "Sherman Oaks",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://losangeles.craigslist.org/sfv/apa/d/valley-village-studio-close-to-101/7940170664.html"
-  },
-  {
-    "id": 110,
-    "category": "housing",
-    "title": "Dishwasher, Microwaves, Clubhouse, Yoga studio",
-    "description": "Dishwasher, Microwaves, Clubhouse, Yoga studio — san fernando valley",
-    "price": "$2,559",
-    "location": "san fernando valley",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://losangeles.craigslist.org/sfv/apa/d/woodland-hills-dishwasher-microwaves/7940170663.html"
-  },
-  {
-    "id": 111,
-    "category": "housing",
-    "title": "TMLP 15-mo. | Must-See 1 BR/1 BA-Gorgeous City Vistas & Resort-Style Perks",
-    "description": "TMLP 15-mo. | Must-See 1 BR/1 BA-Gorgeous City Vistas & Resort-Style Perks — Century City",
-    "price": "$4,736",
-    "location": "Century City",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
     "featured": true,
-    "link": "https://losangeles.craigslist.org/wst/apa/d/los-angeles-tmlp-15-mo-must-see-br-ba/7940170644.html"
-  },
-  {
-    "id": 112,
-    "category": "housing",
-    "title": "TMLP 24-mo. | High-End Living in LA-1 BR with Rooftop Lounge & Sky Views",
-    "description": "TMLP 24-mo. | High-End Living in LA-1 BR with Rooftop Lounge & Sky Views — Los Angeles - Social District",
-    "price": "$2,846",
-    "location": "Los Angeles - Social District",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://losangeles.craigslist.org/lac/apa/d/los-angeles-tmlp-24-mo-high-end-living/7940170621.html"
-  },
-  {
-    "id": 113,
-    "category": "housing",
-    "title": "TMLP 12-mo. | Exclusive 2 BR/2 BA-Loft-Style Living with Clubhouse & Spa",
-    "description": "TMLP 12-mo. | Exclusive 2 BR/2 BA-Loft-Style Living with Clubhouse & Spa — Pasadena",
-    "price": "$3,919",
-    "location": "Pasadena",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://losangeles.craigslist.org/sfv/apa/d/pasadena-tmlp-12-mo-exclusive-br-ba/7940170610.html"
-  },
-  {
-    "id": 114,
-    "category": "housing",
-    "title": "Live in your dream home! 1 Bd/1 ba, 648 SqFt",
-    "description": "Live in your dream home! 1 Bd/1 ba, 648 SqFt",
-    "price": "$2,511",
-    "location": "Los Angeles",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://losangeles.craigslist.org/wst/apa/d/culver-city-live-in-your-dream-home-bd/7939061702.html"
-  },
-  {
-    "id": 115,
-    "category": "housing",
-    "title": "Edificio tranquilo y limpio renta un apartamento",
-    "description": "Edificio tranquilo y limpio renta un apartamento — Panorama City",
-    "price": "$2,200",
-    "location": "Panorama City",
-    "languages": [
-      "en",
-      "es"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://losangeles.craigslist.org/sfv/apa/d/panorama-city-edificio-tranquilo-limpio/7940170566.html"
+    "link": "https://losangeles.craigslist.org/sfv/apa/d/sherman-oaks-beautiful-one-bedroom-with/7937142913.html"
   },
   {
     "id": 116,
     "category": "housing",
-    "title": "TMLP 12-mo. | Expansive windows, Co-working Lounge",
-    "description": "TMLP 12-mo. | Expansive windows, Co-working Lounge — santa rosa",
-    "price": "$2,783",
-    "location": "santa rosa",
+    "title": "FULLY EQUIPPED KITCHEN, IN UNIT WASHER & DRYER, CARPORT PARKING",
+    "description": "FULLY EQUIPPED KITCHEN, IN UNIT WASHER & DRYER, CARPORT PARKING — hayward / castro valley",
+    "price": "$2,314",
+    "location": "hayward / castro valley",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://sfbay.craigslist.org/nby/apa/d/santa-rosa-tmlp-12-mo-expansive-windows/7940170708.html"
+    "link": "https://sfbay.craigslist.org/eby/apa/d/hayward-fully-equipped-kitchen-in-unit/7936322116.html"
   },
   {
     "id": 117,
     "category": "housing",
-    "title": "Playground, Patio/Balcony, Recycling",
-    "description": "Playground, Patio/Balcony, Recycling — san jose downtown",
-    "price": "$2,825",
-    "location": "san jose downtown",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://sfbay.craigslist.org/sby/apa/d/san-jose-playground-patio-balcony/7938796998.html"
-  },
-  {
-    "id": 118,
-    "category": "housing",
-    "title": "TMLP 12-mo. | Ceiling Fans, Elevator, Range, Lounge",
-    "description": "TMLP 12-mo. | Ceiling Fans, Elevator, Range, Lounge — fremont / union city / newark",
-    "price": "$4,057",
-    "location": "fremont / union city / newark",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://sfbay.craigslist.org/eby/apa/d/fremont-tmlp-12-mo-ceiling-fans/7940170686.html"
-  },
-  {
-    "id": 119,
-    "category": "housing",
-    "title": "Pet-Friendly, 24-Hour Emergency Maintenance, Flexible Lease Terms",
-    "description": "Pet-Friendly, 24-Hour Emergency Maintenance, Flexible Lease Terms — fremont / union city / newark",
-    "price": "$2,350",
-    "location": "fremont / union city / newark",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://sfbay.craigslist.org/eby/apa/d/fremont-pet-friendly-24-hour-emergency/7940170676.html"
-  },
-  {
-    "id": 120,
-    "category": "housing",
-    "title": "San Pablo 2BR apt, Kitchen has it all, LUX bath, Ceiling fans, Pool!",
-    "description": "San Pablo 2BR apt, Kitchen has it all, LUX bath, Ceiling fans, Pool! — hercules, pinole, san pablo, el sob",
-    "price": "$2,475",
+    "title": "Ideal 2BR Town Home, Large patio, Modern kitchen, Spacious living room",
+    "description": "Ideal 2BR Town Home, Large patio, Modern kitchen, Spacious living room — hercules, pinole, san pablo, el sob",
+    "price": "$2,895",
     "location": "hercules, pinole, san pablo, el sob",
     "languages": [
       "en"
@@ -373,588 +326,602 @@ export const SAMPLE_LISTINGS = [
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://sfbay.craigslist.org/eby/apa/d/richmond-san-pablo-2br-apt-kitchen-has/7935938644.html"
+    "link": "https://sfbay.craigslist.org/eby/apa/d/richmond-ideal-2br-town-home-large/7938885584.html"
+  },
+  {
+    "id": 118,
+    "category": "housing",
+    "title": "Central Heating, Assigned Parking, Courtyard",
+    "description": "Central Heating, Assigned Parking, Courtyard — alameda",
+    "price": "$3,060",
+    "location": "alameda",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://sfbay.craigslist.org/eby/apa/d/emeryville-central-heating-assigned/7935620016.html"
+  },
+  {
+    "id": 119,
+    "category": "housing",
+    "title": "Luxury 1b/1b,   private backyard, quiet neighborhood, no appl. fees",
+    "description": "Luxury 1b/1b,   private backyard, quiet neighborhood, no appl. fees — santa cruz",
+    "price": "$2,720",
+    "location": "santa cruz",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://sfbay.craigslist.org/scz/apa/d/capitola-luxury-1b-1b-private-backyard/7938601993.html"
+  },
+  {
+    "id": 120,
+    "category": "housing",
+    "title": "One Month Free!! Street-Facing Private Room near Financial District!",
+    "description": "One Month Free!! Street-Facing Private Room near Financial District! — financial district",
+    "price": "$999",
+    "location": "financial district",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-one-month-free-street/7940207792.html"
   },
   {
     "id": 121,
     "category": "housing",
-    "title": "Stunning 2 BR Retreat-Hardwood Floors & Carport Parking!",
-    "description": "Stunning 2 BR Retreat-Hardwood Floors & Carport Parking! — fremont / union city / newark",
-    "price": "$2,845",
-    "location": "fremont / union city / newark",
+    "title": "$1335 / 2 Bedrooms – 1 Bath – San Francisco – Pets OK – NO Smoking",
+    "description": "$1335 / 2 Bedrooms – 1 Bath – San Francisco – Pets OK – NO Smoking — San Francisco, CA",
+    "price": "$1,335",
+    "location": "San Francisco, CA",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://sfbay.craigslist.org/eby/apa/d/newark-stunning-br-retreat-hardwood/7940170641.html"
+    "link": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-bedrooms-bath-san/7940208018.html"
   },
   {
     "id": 122,
     "category": "housing",
-    "title": "Exclusive 2 BR Retreat-Modern Kitchen, Lavish Amenities",
-    "description": "Exclusive 2 BR Retreat-Modern Kitchen, Lavish Amenities — napa county",
-    "price": "$0",
-    "location": "napa county",
+    "title": "Dishwasher, Co-Working Conference Room Spaces, 2B/2B",
+    "description": "Dishwasher, Co-Working Conference Room Spaces, 2B/2B — oakland downtown",
+    "price": "$2,682",
+    "location": "oakland downtown",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://sfbay.craigslist.org/nby/apa/d/napa-exclusive-br-retreat-modern/7940170634.html"
+    "link": "https://sfbay.craigslist.org/eby/apa/d/oakland-dishwasher-co-working/7935810600.html"
   },
   {
     "id": 123,
     "category": "housing",
-    "title": "Downtown San Leandro 2 BR, 2 BA apt w/ AC and new apps.",
-    "description": "Downtown San Leandro 2 BR, 2 BA apt w/ AC and new apps. — san leandro",
-    "price": "$3,911",
-    "location": "san leandro",
+    "title": "COMPLETELY REMODELED one bedroom steps from Polk St",
+    "description": "COMPLETELY REMODELED one bedroom steps from Polk St — russian hill",
+    "price": "$3,750",
+    "location": "russian hill",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://sfbay.craigslist.org/eby/apa/d/san-leandro-downtown-san-leandro-br-ba/7940170613.html"
+    "link": "https://sfbay.craigslist.org/sfc/apa/d/san-francisco-completely-remodeled-one/7940209034.html"
   },
   {
     "id": 124,
     "category": "housing",
-    "title": "Above the shops of Rosedale/Summerhill!! One Bedroom!",
-    "description": "Above the shops of Rosedale/Summerhill!! One Bedroom! — Yonge St and Roxborough St. W.",
-    "price": "$1,595",
-    "location": "Yonge St and Roxborough St. W.",
+    "title": "tridel luxury spacious 1 bed boutique condo rooftop pool",
+    "description": "tridel luxury spacious 1 bed boutique condo rooftop pool — DUPONT AND OSSIGHTON",
+    "price": "$2,090",
+    "location": "DUPONT AND OSSIGHTON",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://toronto.craigslist.org/tor/apa/d/toronto-above-the-shops-of-rosedale/7937788670.html"
+    "featured": true,
+    "link": "https://toronto.craigslist.org/tor/apa/d/downtown-toronto-tridel-luxury-spacious/7939515944.html"
   },
   {
     "id": 125,
     "category": "housing",
-    "title": "Beautifully Renovated AboveGround Basement Apartment 1-bedroom,1-bath",
-    "description": "Beautifully Renovated AboveGround Basement Apartment 1-bedroom,1-bath",
-    "price": "$1,200",
-    "location": "Toronto",
+    "title": "SPACIOUS 1 BED MAIN LEVEL EXPOSED BRICK WITH BACKYARD",
+    "description": "SPACIOUS 1 BED MAIN LEVEL EXPOSED BRICK WITH BACKYARD — DUNDAS AND KEELE",
+    "price": "$2,200",
+    "location": "DUNDAS AND KEELE",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://toronto.craigslist.org/tor/apa/d/north-york-beautifully-renovated/7938018334.html"
+    "link": "https://toronto.craigslist.org/tor/apa/d/toronto-spacious-bed-main-level-exposed/7939517339.html"
   },
   {
     "id": 126,
     "category": "housing",
-    "title": "Open Concept Basement Apartment for Rent",
-    "description": "Open Concept Basement Apartment for Rent",
-    "price": "$1,400",
-    "location": "Toronto",
+    "title": "FUSE CONDOS 2 BEDS 1 BATH WITH PARKING INCLD",
+    "description": "FUSE CONDOS 2 BEDS 1 BATH WITH PARKING INCLD — dupont and dufferin",
+    "price": "$2,500",
+    "location": "dupont and dufferin",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://toronto.craigslist.org/tor/apa/d/toronto-open-concept-basement-apartment/7940157227.html"
+    "featured": true,
+    "link": "https://toronto.craigslist.org/tor/apa/d/west-toronto-fuse-condos-beds-bath-with/7939518850.html"
   },
   {
     "id": 127,
     "category": "housing",
-    "title": "25 MILLER ST. 2ND FL.- 2BED/1BATH, LAUNDRY, YARD",
-    "description": "25 MILLER ST. 2ND FL.- 2BED/1BATH, LAUNDRY, YARD",
-    "price": "$2,200",
-    "location": "Toronto",
+    "title": "TOP LEVEL 2+1 1 BATH WITH W/O DECK",
+    "description": "TOP LEVEL 2+1 1 BATH WITH W/O DECK — LITTLE PORTUGAL",
+    "price": "$2,550",
+    "location": "LITTLE PORTUGAL",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://toronto.craigslist.org/tor/apa/d/toronto-25-miller-st-2nd-fl-2bed-1bath/7940150710.html"
+    "link": "https://toronto.craigslist.org/tor/apa/d/west-toronto-top-level-21-bath-with-o/7939519334.html"
   },
   {
     "id": 128,
     "category": "housing",
-    "title": "Senior and Family Living Apartments",
-    "description": "Senior and Family Living Apartments — ajax",
-    "price": "$2,199",
-    "location": "ajax",
+    "title": "INCREDIBLE VALUE 2 BEDS 2 BATHS BRAND NEW",
+    "description": "INCREDIBLE VALUE 2 BEDS 2 BATHS BRAND NEW — dupont and dufferin",
+    "price": "$2,300",
+    "location": "dupont and dufferin",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://toronto.craigslist.org/drh/apa/d/ajax-senior-and-family-living-apartments/7940140862.html"
+    "link": "https://toronto.craigslist.org/tor/apa/d/west-toronto-incredible-value-beds/7939518422.html"
   },
   {
     "id": 129,
     "category": "housing",
-    "title": "Amazing 3+1 Townhome Available In Aurora!",
-    "description": "Amazing 3+1 Townhome Available In Aurora! — 145 Millcliff Circ",
-    "price": "$3,550",
-    "location": "145 Millcliff Circ",
+    "title": "LUXURY CONDO 2 BEDS 2 BATHS WITH OUTDOOR POOL",
+    "description": "LUXURY CONDO 2 BEDS 2 BATHS WITH OUTDOOR POOL — dupont and dufferin",
+    "price": "$2,600",
+    "location": "dupont and dufferin",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://toronto.craigslist.org/yrk/apa/d/aurora-amazing-31-townhome-available-in/7940140550.html"
+    "link": "https://toronto.craigslist.org/tor/apa/d/west-toronto-luxury-condo-beds-baths/7939519795.html"
   },
   {
     "id": 130,
     "category": "housing",
-    "title": "Keeley Condos, Newer Building, Parking / Locker",
-    "description": "Keeley Condos, Newer Building, Parking / Locker — Downsview-Roding-CFB, Toronto,",
-    "price": "$2,450",
-    "location": "Downsview-Roding-CFB, Toronto,",
+    "title": "FUSE CONDOS 2 BEDS 2 BATHS CORNER UNIT",
+    "description": "FUSE CONDOS 2 BEDS 2 BATHS CORNER UNIT — dupont and dufferin",
+    "price": "$2,675",
+    "location": "dupont and dufferin",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://toronto.craigslist.org/tor/apa/d/toronto-keeley-condos-newer-building/7940132829.html"
+    "link": "https://toronto.craigslist.org/tor/apa/d/west-toronto-fuse-condos-beds-baths/7939520094.html"
   },
   {
     "id": 131,
     "category": "housing",
-    "title": "Furnished 1-BR Basement Unit for rent in Mississauga",
-    "description": "Furnished 1-BR Basement Unit for rent in Mississauga — mississauga",
-    "price": "$1,800",
-    "location": "mississauga",
+    "title": "PENTHOUSE LEVEL 2 BEDS 1 BATH WITH PARKING INCLD AND XTRA LARGE BALCON",
+    "description": "PENTHOUSE LEVEL 2 BEDS 1 BATH WITH PARKING INCLD AND XTRA LARGE BALCON — DUPONT AND LANSDOWNE",
+    "price": "$2,100",
+    "location": "DUPONT AND LANSDOWNE",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://toronto.craigslist.org/mss/apa/d/mississauga-furnished-br-basement-unit/7940130224.html"
+    "featured": true,
+    "link": "https://toronto.craigslist.org/tor/apa/d/west-toronto-penthouse-level-beds-bath/7938963618.html"
   },
   {
     "id": 132,
     "category": "housing",
-    "title": "2BD 2BA, Laundry facilities, Spacious Open-Concept Layouts",
-    "description": "2BD 2BA, Laundry facilities, Spacious Open-Concept Layouts — 20159 88 Ave, Langley, BC",
-    "price": "$2,095",
-    "location": "20159 88 Ave, Langley, BC",
+    "title": "Pier West - Beautiful waterfront development by BOSA",
+    "description": "Pier West - Beautiful waterfront development by BOSA — burnaby/newwest",
+    "price": "$2,400",
+    "location": "burnaby/newwest",
     "languages": [
-      "en"
+      "en",
+      "zh"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://vancouver.craigslist.org/rds/apa/d/langley-2bd-2ba-laundry-facilities/7939696135.html"
+    "featured": false,
+    "link": "https://vancouver.craigslist.org/bnc/apa/d/new-westminster-southwest-pier-west/7940209402.html"
   },
   {
     "id": 133,
     "category": "housing",
-    "title": "Modern 2 Bed + 2 Bath Condo for Rent at King George Hub SurreySkyTrain",
-    "description": "Modern 2 Bed + 2 Bath Condo for Rent at King George Hub SurreySkyTrain — delta/surrey/langley",
-    "price": "$2,195",
-    "location": "delta/surrey/langley",
+    "title": "in Vancouver BC, 1/BD, Elevator",
+    "description": "in Vancouver BC, 1/BD, Elevator — city of vancouver",
+    "price": "$2,665",
+    "location": "city of vancouver",
     "languages": [
-      "en",
-      "zh",
-      "vi"
+      "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://vancouver.craigslist.org/rds/apa/d/surrey-inner-northwest-modern-bed-bath/7939656677.html"
+    "featured": true,
+    "link": "https://vancouver.craigslist.org/van/apa/d/vancouver-in-vancouver-bc-bd-elevator/7935931083.html"
   },
   {
     "id": 134,
     "category": "housing",
-    "title": "Furnished 1 Bedroom Water View 89 Nelson ARC - Available May 1",
-    "description": "Furnished 1 Bedroom Water View 89 Nelson ARC - Available May 1 — Downtown Vancouver",
-    "price": "$3,000",
-    "location": "Downtown Vancouver",
+    "title": "Tennis Court, In-suite Laundry, Social Room",
+    "description": "Tennis Court, In-suite Laundry, Social Room — 5050 Sanders St, Burnaby, BC",
+    "price": "$2,025",
+    "location": "5050 Sanders St, Burnaby, BC",
     "languages": [
-      "en"
+      "en",
+      "zh"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://vancouver.craigslist.org/van/apa/d/vancouver-furnished-bedroom-water-view/7938631980.html"
+    "link": "https://vancouver.craigslist.org/bnc/apa/d/burnaby-tennis-court-in-suite-laundry/7930690750.html"
   },
   {
     "id": 135,
     "category": "housing",
-    "title": "One Burrard | 2 Bed, 2 Bath | 17th Floor | Parking Included | $4,200/m",
-    "description": "One Burrard | 2 Bed, 2 Bath | 17th Floor | Parking Included | $4,200/m — Downtown Vancouver",
-    "price": "$4,200",
-    "location": "Downtown Vancouver",
+    "title": "Close to Skytrains, Steps from Stanley Park, Close to the West End",
+    "description": "Close to Skytrains, Steps from Stanley Park, Close to the West End — 1045 Haro St, Vancouver, BC",
+    "price": "$2,950",
+    "location": "1045 Haro St, Vancouver, BC",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://vancouver.craigslist.org/van/apa/d/vancouver-one-burrard-bed-bath-17th/7940162383.html"
+    "link": "https://vancouver.craigslist.org/van/apa/d/vancouver-close-to-skytrains-steps-from/7939211316.html"
   },
   {
     "id": 136,
     "category": "housing",
-    "title": "Downtown Furnished One Bedroom One Bathroom w/ AC",
-    "description": "Downtown Furnished One Bedroom One Bathroom w/ AC",
-    "price": "$3,000",
+    "title": "2 Bedroom 2 bathroom plus Den penthouse (Vancouver)",
+    "description": "2 Bedroom 2 bathroom plus Den penthouse (Vancouver)",
+    "price": "$2,850",
     "location": "Vancouver",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://vancouver.craigslist.org/van/apa/d/vancouver-downtown-furnished-one/7940168082.html"
+    "featured": false,
+    "link": "https://vancouver.craigslist.org/van/apa/d/vancouver-bedroom-bathroom-plus-den/7939150826.html"
   },
   {
     "id": 137,
     "category": "housing",
-    "title": "Sunset Beach Waterfront | 2 BDRM + 2 BATH",
-    "description": "Sunset Beach Waterfront | 2 BDRM + 2 BATH",
-    "price": "$3,414",
-    "location": "Vancouver",
+    "title": "2 Level - 2 Bedroom Spacious unit in New Westminster",
+    "description": "2 Level - 2 Bedroom Spacious unit in New Westminster — New Westminster 12 St",
+    "price": "$2,250",
+    "location": "New Westminster 12 St",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://vancouver.craigslist.org/van/apa/d/vancouver-sunset-beach-waterfront-bdrm/7932820865.html"
+    "link": "https://vancouver.craigslist.org/bnc/apa/d/new-westminster-southwest-level-bedroom/7938157077.html"
   },
   {
     "id": 138,
     "category": "housing",
-    "title": "Furnished Basement Suite - Fraser Heights - Available August 1",
-    "description": "Furnished Basement Suite - Fraser Heights - Available August 1 — Surrey",
-    "price": "$1,400",
-    "location": "Surrey",
+    "title": "Killarney 3 Bedroom 2 bathroom UPPER FLOOR",
+    "description": "Killarney 3 Bedroom 2 bathroom UPPER FLOOR — Killarney @ Kerr and E49",
+    "price": "$2,800",
+    "location": "Killarney @ Kerr and E49",
     "languages": [
-      "en",
-      "zh",
-      "vi"
+      "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://vancouver.craigslist.org/rds/apa/d/surrey-northeast-furnished-basement/7940167431.html"
+    "featured": true,
+    "link": "https://vancouver.craigslist.org/van/apa/d/vancouver-killarney-bedroom-bathroom/7932361355.html"
   },
   {
     "id": 139,
     "category": "housing",
-    "title": "One Bedroom One Bathroom  near Grouse Mnt",
-    "description": "One Bedroom One Bathroom  near Grouse Mnt — North Van",
-    "price": "$1,650",
-    "location": "North Van",
+    "title": "Station Square - 37th Floor- Junior 1 Bedroom Condo nice view",
+    "description": "Station Square - 37th Floor- Junior 1 Bedroom Condo nice view — Metrotown Burnaby",
+    "price": "$2,200",
+    "location": "Metrotown Burnaby",
     "languages": [
-      "en"
+      "en",
+      "zh"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://vancouver.craigslist.org/nvn/apa/d/north-vancouver-one-bedroom-one/7939137294.html"
+    "link": "https://vancouver.craigslist.org/bnc/apa/d/burnaby-station-square-37th-floor/7936558937.html"
   },
   {
     "id": 140,
     "category": "housing",
-    "title": "Live Near Starbucks! Renovated in Newcastle!",
-    "description": "Live Near Starbucks! Renovated in Newcastle! — 6802 Coal Creek Parkway SE Newcastle, WA 98059",
-    "price": "$1,849",
-    "location": "6802 Coal Creek Parkway SE Newcastle, WA 98059",
+    "title": "2B/1.5B, Outdoor Playground, In Tacoma",
+    "description": "2B/1.5B, Outdoor Playground, In Tacoma — 3509 South Orchard Street, Tacoma, WA",
+    "price": "$1,899",
+    "location": "3509 South Orchard Street, Tacoma, WA",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://seattle.craigslist.org/est/apa/d/renton-live-near-starbucks-renovated-in/7940170745.html"
+    "link": "https://seattle.craigslist.org/tac/apa/d/tacoma-2b-15b-outdoor-playground-in/7937580280.html"
   },
   {
     "id": 141,
     "category": "housing",
-    "title": "TMLP 12-mo. | Access to Large City Park, Vinyl Flooring, Microwave",
-    "description": "TMLP 12-mo. | Access to Large City Park, Vinyl Flooring, Microwave — Central District, Little Siam, Leschi",
-    "price": "$2,336",
-    "location": "Central District, Little Siam, Leschi",
+    "title": "Limited Time Move-In Special - Rooms Going Fast, 1st Month Discount!",
+    "description": "Limited Time Move-In Special - Rooms Going Fast, 1st Month Discount! — 7045 180th Ave NE, Redmond, WA",
+    "price": "$1,400",
+    "location": "7045 180th Ave NE, Redmond, WA",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://seattle.craigslist.org/see/apa/d/seattle-tmlp-12-mo-access-to-large-city/7940170744.html"
+    "featured": true,
+    "link": "https://seattle.craigslist.org/est/apa/d/redmond-limited-time-move-in-special/7937463097.html"
   },
   {
     "id": 142,
     "category": "housing",
-    "title": "TMLP 14-mo. | Quartz countertops with under mount sinks, Clubroom",
-    "description": "TMLP 14-mo. | Quartz countertops with under mount sinks, Clubroom — South Lake Union",
-    "price": "$2,045",
-    "location": "South Lake Union",
+    "title": "In Home Stackable Washer/Dryer, Guest Parking, 1/BD 1/BA",
+    "description": "In Home Stackable Washer/Dryer, Guest Parking, 1/BD 1/BA — 1324 Mill Creek Blvd, Mill Creek, WA",
+    "price": "$1,891",
+    "location": "1324 Mill Creek Blvd, Mill Creek, WA",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://seattle.craigslist.org/see/apa/d/seattle-tmlp-14-mo-quartz-countertops/7940170736.html"
+    "featured": false,
+    "link": "https://seattle.craigslist.org/see/apa/d/bothell-in-home-stackable-washer-dryer/7938170177.html"
   },
   {
     "id": 143,
     "category": "housing",
-    "title": "Move-In Special, Gilmore Apartments - Affordable Downtown Seattle",
-    "description": "Move-In Special, Gilmore Apartments - Affordable Downtown Seattle — Downtown",
-    "price": "$1,299",
-    "location": "Downtown",
+    "title": "BBQ / Picnic Area, Playground, Electric Range",
+    "description": "BBQ / Picnic Area, Playground, Electric Range — 19800 50th Ave W, Lynnwood, WA",
+    "price": "$1,550",
+    "location": "19800 50th Ave W, Lynnwood, WA",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://seattle.craigslist.org/see/apa/d/seattle-move-in-special-gilmore/7940170735.html"
+    "featured": false,
+    "link": "https://seattle.craigslist.org/sno/apa/d/lynnwood-bbq-picnic-area-playground/7935584003.html"
   },
   {
     "id": 144,
     "category": "housing",
-    "title": "Microwave*, Patios and Balcones Available*, Close to JBLM, Dishwasher",
-    "description": "Microwave*, Patios and Balcones Available*, Close to JBLM, Dishwasher — Fircrest",
-    "price": "$0",
-    "location": "Fircrest",
+    "title": "Washer and Dryer Connections Available, Patio, 2BD 1.5BA",
+    "description": "Washer and Dryer Connections Available, Patio, 2BD 1.5BA — 18111 25th Ave NE, Marysville, WA",
+    "price": "$2,315",
+    "location": "18111 25th Ave NE, Marysville, WA",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://seattle.craigslist.org/tac/apa/d/tacoma-microwave-patios-and-balcones/7940170730.html"
+    "featured": false,
+    "link": "https://seattle.craigslist.org/sno/apa/d/marysville-washer-and-dryer-connections/7939306054.html"
   },
   {
     "id": 145,
     "category": "housing",
-    "title": "Location matters! Discover Studio in Lynnwood's core.",
-    "description": "Location matters! Discover Studio in Lynnwood's core. — Lynnwood - Thomas Lake Shopping Center",
-    "price": "$1,553",
-    "location": "Lynnwood - Thomas Lake Shopping Center",
+    "title": "Playground, 3 Bed, Issaquah WA",
+    "description": "Playground, 3 Bed, Issaquah WA — 280 SW Clark St, Issaquah, WA",
+    "price": "$2,150",
+    "location": "280 SW Clark St, Issaquah, WA",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://seattle.craigslist.org/sno/apa/d/lynnwood-location-matters-discover/7940170725.html"
+    "link": "https://seattle.craigslist.org/est/apa/d/issaquah-playground-bed-issaquah-wa/7934342330.html"
   },
   {
     "id": 146,
     "category": "housing",
-    "title": "One Month FREE!! Midtown 15",
-    "description": "One Month FREE!! Midtown 15 — Tacoma - The Grand Cinema",
-    "price": "$1,499",
-    "location": "Tacoma - The Grand Cinema",
+    "title": "in Tacoma WA, 2B/2B, Cable Ready",
+    "description": "in Tacoma WA, 2B/2B, Cable Ready — 601 South Shirley Street, Tacoma, WA",
+    "price": "$2,173",
+    "location": "601 South Shirley Street, Tacoma, WA",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://seattle.craigslist.org/tac/apa/d/tacoma-one-month-free-midtown-15/7938752747.html"
+    "featured": false,
+    "link": "https://seattle.craigslist.org/tac/apa/d/tacoma-in-tacoma-wa-2b-2b-cable-ready/7936702808.html"
   },
   {
     "id": 147,
     "category": "housing",
-    "title": "Exceptional living, timeless charm: One Month FREE!",
-    "description": "Exceptional living, timeless charm: One Month FREE! — Tacoma - The Broadway Farmers Market",
-    "price": "$1,199",
-    "location": "Tacoma - The Broadway Farmers Market",
+    "title": "3BR, 2BA Courtyard View, Corner Apartment, with Garage Included!",
+    "description": "3BR, 2BA Courtyard View, Corner Apartment, with Garage Included! — 13315 45th Ave SE, Seattle-Tacoma, WA",
+    "price": "$3,060",
+    "location": "13315 45th Ave SE, Seattle-Tacoma, WA",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://seattle.craigslist.org/tac/apa/d/tacoma-exceptional-living-timeless/7938753451.html"
+    "featured": false,
+    "link": "https://seattle.craigslist.org/sno/apa/d/everett-3br-2ba-courtyard-view-corner/7937172486.html"
   },
   {
     "id": 148,
     "category": "housing",
-    "title": "Rogers Park - 2 Bed 1 Bath Heat Included",
-    "description": "Rogers Park - 2 Bed 1 Bath Heat Included — Rogers Park at Sherwin & Paulina",
-    "price": "$1,895",
-    "location": "Rogers Park at Sherwin & Paulina",
+    "title": "Austin Modern 1BR – Renovated Chicago Living Space",
+    "description": "Austin Modern 1BR – Renovated Chicago Living Space",
+    "price": "$1,600",
+    "location": "Chicago",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://chicago.craigslist.org/chc/apa/d/chicago-rogers-park-bed-bath-heat/7940169189.html"
+    "link": "https://chicago.craigslist.org/chc/apa/d/chicago-austin-modern-1br-renovated/7940207151.html"
   },
   {
     "id": 149,
     "category": "housing",
-    "title": "Apartment $1,050 / 1 Bedrooms 1 Bath / Madison & Long",
-    "description": "Apartment $1,050 / 1 Bedrooms 1 Bath / Madison & Long — west chicagoland",
-    "price": "$1,050",
-    "location": "west chicagoland",
+    "title": "River North 1 Bedroom with private balcony and in unit washer & dryer",
+    "description": "River North 1 Bedroom with private balcony and in unit washer & dryer — River North",
+    "price": "$2,475",
+    "location": "River North",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://chicago.craigslist.org/wcl/apa/d/chicago-apartment-bedrooms-bath-madison/7940167600.html"
+    "link": "https://chicago.craigslist.org/chc/apa/d/chicago-river-north-bedroom-with/7940198573.html"
   },
   {
     "id": 150,
     "category": "housing",
-    "title": "Apartment $1,250 / 2 Bedrooms 1 Bath / Race & Waller",
-    "description": "Apartment $1,250 / 2 Bedrooms 1 Bath / Race & Waller — south chicagoland",
-    "price": "$1,250",
-    "location": "south chicagoland",
+    "title": "5 Bed 3 Bath Duplex Down in Wrigley",
+    "description": "5 Bed 3 Bath Duplex Down in Wrigley — Lakeview",
+    "price": "$6,100",
+    "location": "Lakeview",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://chicago.craigslist.org/sox/apa/d/chicago-apartment-bedrooms-bath-race/7940167463.html"
+    "link": "https://chicago.craigslist.org/chc/apa/d/chicago-bed-bath-duplex-down-in-wrigley/7940196023.html"
   },
   {
     "id": 151,
     "category": "housing",
-    "title": "Apartment $1,400 / 2 Bedrooms 1 Bath / Parkside & North Ave.",
-    "description": "Apartment $1,400 / 2 Bedrooms 1 Bath / Parkside & North Ave. — west chicagoland",
-    "price": "$1,400",
-    "location": "west chicagoland",
+    "title": "Lakeshore East Studio with hardwood flooring, in unit washer & dryer",
+    "description": "Lakeshore East Studio with hardwood flooring, in unit washer & dryer — Lakeshore East",
+    "price": "$2,350",
+    "location": "Lakeshore East",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://chicago.craigslist.org/wcl/apa/d/chicago-apartment-bedrooms-bath/7940167264.html"
+    "link": "https://chicago.craigslist.org/chc/apa/d/chicago-lakeshore-east-studio-with/7940195879.html"
   },
   {
     "id": 152,
     "category": "housing",
-    "title": "Apartment $1,600/ 2 Bedrooms 1 Bath - Parkside & West End",
-    "description": "Apartment $1,600/ 2 Bedrooms 1 Bath - Parkside & West End — west chicagoland",
-    "price": "$1,600",
-    "location": "west chicagoland",
+    "title": "Lakeshore East Convertible/ 1 Bedroom w/ private balcony, in unit w&d",
+    "description": "Lakeshore East Convertible/ 1 Bedroom w/ private balcony, in unit w&d — Lakeshore East",
+    "price": "$2,335",
+    "location": "Lakeshore East",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://chicago.craigslist.org/wcl/apa/d/chicago-apartment-bedrooms-bath/7940167129.html"
+    "link": "https://chicago.craigslist.org/chc/apa/d/chicago-lakeshore-east-convertible/7940195526.html"
   },
   {
     "id": 153,
     "category": "housing",
-    "title": "Apartment $1,125 / 2 Bedrooms 1 Bath - Mason & Fillmore",
-    "description": "Apartment $1,125 / 2 Bedrooms 1 Bath - Mason & Fillmore — south chicagoland",
-    "price": "$1,125",
-    "location": "south chicagoland",
+    "title": "Noble Square 3 Bed 2 Bath Condo For 8/1- Garage parking avail",
+    "description": "Noble Square 3 Bed 2 Bath Condo For 8/1- Garage parking avail — Noble Square",
+    "price": "$4,395",
+    "location": "Noble Square",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://chicago.craigslist.org/sox/apa/d/oak-park-apartment-bedrooms-bath-mason/7940166757.html"
+    "link": "https://chicago.craigslist.org/chc/apa/d/chicago-noble-square-bed-bath-condo-for/7940194170.html"
   },
   {
     "id": 154,
     "category": "housing",
-    "title": "Apartment $1,100 / 2 Bedrooms 1 Bath - 78th & Burnham",
-    "description": "Apartment $1,100 / 2 Bedrooms 1 Bath - 78th & Burnham — south chicagoland",
-    "price": "$1,100",
-    "location": "south chicagoland",
+    "title": "Top Floor 2 Bed 2 Bath- Entire Garage for Rent!",
+    "description": "Top Floor 2 Bed 2 Bath- Entire Garage for Rent! — Wicker Park",
+    "price": "$4,100",
+    "location": "Wicker Park",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://chicago.craigslist.org/sox/apa/d/chicago-apartment-bedrooms-bath-78th/7940163893.html"
+    "link": "https://chicago.craigslist.org/chc/apa/d/chicago-top-floor-bed-bath-entire/7940194135.html"
   },
   {
     "id": 155,
     "category": "housing",
-    "title": "Cute 3 bedroom house near downtown and parks",
-    "description": "Cute 3 bedroom house near downtown and parks — Valparaiso",
-    "price": "$2,100",
-    "location": "Valparaiso",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://chicago.craigslist.org/nwi/apa/d/valparaiso-cute-bedroom-house-near/7940158859.html"
-  },
-  {
-    "id": 156,
-    "category": "housing",
-    "title": "Open the Door to Possibilities: Experience Living at Its Very Best!",
-    "description": "Open the Door to Possibilities: Experience Living at Its Very Best!",
-    "price": "$1,409",
-    "location": "Houston",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://houston.craigslist.org/apa/d/houston-open-the-door-to-possibilities/7938371832.html"
-  },
-  {
-    "id": 157,
-    "category": "housing",
-    "title": "Laundry facilities, 24-hour emergency maintenance, Intrusion alarms",
-    "description": "Laundry facilities, 24-hour emergency maintenance, Intrusion alarms — CONROE",
-    "price": "$1,475",
-    "location": "CONROE",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://houston.craigslist.org/apa/d/conroe-laundry-facilities-24-hour/7940170092.html"
-  },
-  {
-    "id": 158,
-    "category": "housing",
-    "title": "Discover your haven. Check out our 1 BR.",
-    "description": "Discover your haven. Check out our 1 BR.",
-    "price": "$1,300",
-    "location": "Houston",
+    "title": "RARE Old Town Townhome Available 7/15",
+    "description": "RARE Old Town Townhome Available 7/15",
+    "price": "$7,300",
+    "location": "Chicago",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://houston.craigslist.org/apa/d/houston-discover-your-haven-check-out/7935789427.html"
+    "link": "https://chicago.craigslist.org/chc/apa/d/chicago-rare-old-town-townhome/7940193946.html"
   },
   {
-    "id": 159,
+    "id": 156,
     "category": "housing",
-    "title": "Dog Park, Central Air",
-    "description": "Dog Park, Central Air — 1601 Garth Rd, Houston, TX",
-    "price": "$1,499",
+    "title": "On-Site Management, Private Patio, Community Center",
+    "description": "On-Site Management, Private Patio, Community Center — 6233 Gulfton, Houston, TX",
+    "price": "$730",
+    "location": "6233 Gulfton, Houston, TX",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": true,
+    "link": "https://houston.craigslist.org/apa/d/houston-on-site-management-private/7932380639.html"
+  },
+  {
+    "id": 157,
+    "category": "housing",
+    "title": "2B/2B, Carport, in Baytown TX",
+    "description": "2B/2B, Carport, in Baytown TX — 1601 Garth Rd, Houston, TX",
+    "price": "$999",
     "location": "1601 Garth Rd, Houston, TX",
     "languages": [
       "en"
@@ -962,209 +929,271 @@ export const SAMPLE_LISTINGS = [
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://houston.craigslist.org/apa/d/baytown-dog-park-central-air/7934081268.html"
+    "link": "https://houston.craigslist.org/apa/d/baytown-2b-2b-carport-in-baytown-tx/7934152925.html"
   },
   {
-    "id": 160,
+    "id": 158,
     "category": "housing",
-    "title": "No Deposit, No Hassle - Check In Today!",
-    "description": "No Deposit, No Hassle - Check In Today! — 5350 W Sam Houston Pkwy N, Houston, TX",
-    "price": "$294",
-    "location": "5350 W Sam Houston Pkwy N, Houston, TX",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://houston.craigslist.org/apa/d/houston-no-deposit-no-hassle-check-in/7937530186.html"
-  },
-  {
-    "id": 161,
-    "category": "housing",
-    "title": "Appreciate Value? You'll Get a Deal at La Solera",
-    "description": "Appreciate Value? You'll Get a Deal at La Solera",
-    "price": "$956",
-    "location": "Houston",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://houston.craigslist.org/apa/d/houston-appreciate-value-youll-get-deal/7933602633.html"
-  },
-  {
-    "id": 162,
-    "category": "housing",
-    "title": "Upgrade your lifestyle: Stunning Studio 444 Sq Ft homes.",
-    "description": "Upgrade your lifestyle: Stunning Studio 444 Sq Ft homes.",
-    "price": "$999",
-    "location": "Houston",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://houston.craigslist.org/apa/d/houston-upgrade-your-lifestyle-stunning/7938823683.html"
-  },
-  {
-    "id": 163,
-    "category": "housing",
-    "title": "Exclusive Offer: Short-Term Stays with No Strings Attached!",
-    "description": "Exclusive Offer: Short-Term Stays with No Strings Attached! — 18028 US-59, Humble, TX",
-    "price": "$251",
-    "location": "18028 US-59, Humble, TX",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://houston.craigslist.org/apa/d/humble-exclusive-offer-short-term-stays/7938041071.html"
-  },
-  {
-    "id": 164,
-    "category": "housing",
-    "title": "Studio with kitchenette, separate entrance and laundry",
-    "description": "Studio with kitchenette, separate entrance and laundry — Cambridge",
-    "price": "$2,000",
-    "location": "Cambridge",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://boston.craigslist.org/gbs/apa/d/cambridge-studio-with-kitchenette/7940169465.html"
-  },
-  {
-    "id": 165,
-    "category": "housing",
-    "title": "new renovation, 8 min walk to T Jamaica plain, available 9/1",
-    "description": "new renovation, 8 min walk to T Jamaica plain, available 9/1 — ROSLINDALE/JAMAICA PLAIN",
-    "price": "$2,850",
-    "location": "ROSLINDALE/JAMAICA PLAIN",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://boston.craigslist.org/gbs/apa/d/roslindale-new-renovation-min-walk-to/7940168843.html"
-  },
-  {
-    "id": 166,
-    "category": "housing",
-    "title": "4 bed 2 full bath newly renovated, 5 min walk to T \"forest hill\" 9/1",
-    "description": "4 bed 2 full bath newly renovated, 5 min walk to T \"forest hill\" 9/1 — JAMAICA PLAIN",
-    "price": "$4,995",
-    "location": "JAMAICA PLAIN",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://boston.craigslist.org/gbs/apa/d/roslindale-bed-full-bath-newly/7940168723.html"
-  },
-  {
-    "id": 167,
-    "category": "housing",
-    "title": "4 Bedroom by owner, Laundry! 12 min walk to Porter Red Line, Avail 9/1",
-    "description": "4 Bedroom by owner, Laundry! 12 min walk to Porter Red Line, Avail 9/1 — Porter Sq",
-    "price": "$4,950",
-    "location": "Porter Sq",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://boston.craigslist.org/gbs/apa/d/somerville-bedroom-by-owner-laundry-12/7940161803.html"
-  },
-  {
-    "id": 168,
-    "category": "housing",
-    "title": "3BR/2.5BA - 1700ft2 - Southie full House w/ 2 level Deck for 9/1",
-    "description": "3BR/2.5BA - 1700ft2 - Southie full House w/ 2 level Deck for 9/1 — South Boston",
-    "price": "$4,800",
-    "location": "South Boston",
+    "title": "Apartment Alternative: No Deposit and Fully Inclusive!",
+    "description": "Apartment Alternative: No Deposit and Fully Inclusive! — 121 Baker Rd, Houston, TX",
+    "price": "$1,321",
+    "location": "121 Baker Rd, Houston, TX",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://boston.craigslist.org/gbs/apa/d/boston-3br-25ba-ft2-southie-full-house/7940154133.html"
+    "link": "https://houston.craigslist.org/apa/d/barker-apartment-alternative-no-deposit/7937227055.html"
+  },
+  {
+    "id": 159,
+    "category": "housing",
+    "title": "All-Inclusive Affordable Living - No Hidden Fees",
+    "description": "All-Inclusive Affordable Living - No Hidden Fees — 18929 Tomball Pkwy, Houston, TX",
+    "price": "$1,036",
+    "location": "18929 Tomball Pkwy, Houston, TX",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": true,
+    "link": "https://houston.craigslist.org/apa/d/houston-all-inclusive-affordable-living/7938792933.html"
+  },
+  {
+    "id": 160,
+    "category": "housing",
+    "title": "Digital Room Key, 1 BD, Located in Katy",
+    "description": "Digital Room Key, 1 BD, Located in Katy — 27780 Parkside St, Katy, TX",
+    "price": "$1,499",
+    "location": "27780 Parkside St, Katy, TX",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://houston.craigslist.org/apa/d/katy-digital-room-key-bd-located-in-katy/7934919717.html"
+  },
+  {
+    "id": 161,
+    "category": "housing",
+    "title": "Now Leasing New Beginnings at The Park at Bellagio",
+    "description": "Now Leasing New Beginnings at The Park at Bellagio — 50 Miles South of Houston",
+    "price": "$1,275",
+    "location": "50 Miles South of Houston",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://houston.craigslist.org/apa/d/clute-now-leasing-new-beginnings-at-the/7931245983.html"
+  },
+  {
+    "id": 162,
+    "category": "housing",
+    "title": "Free basic cable TV, Sparkling pool, Kitchenettes",
+    "description": "Free basic cable TV, Sparkling pool, Kitchenettes",
+    "price": "$304",
+    "location": "Houston",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://houston.craigslist.org/apa/d/houston-free-basic-cable-tv-sparkling/7938380789.html"
+  },
+  {
+    "id": 163,
+    "category": "housing",
+    "title": "Budget-Friendly Monthly Rates - No Lease, No Commitment!",
+    "description": "Budget-Friendly Monthly Rates - No Lease, No Commitment! — 2551 Interstate 45 N, Conroe, TX",
+    "price": "$896",
+    "location": "2551 Interstate 45 N, Conroe, TX",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://houston.craigslist.org/apa/d/conroe-budget-friendly-monthly-rates-no/7938314506.html"
+  },
+  {
+    "id": 164,
+    "category": "housing",
+    "title": "Brighton Sunny 1BR – Great Natural Light & Layout",
+    "description": "Brighton Sunny 1BR – Great Natural Light & Layout — boston",
+    "price": "$1,700",
+    "location": "boston",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://boston.craigslist.org/gbs/apa/d/brighton-brighton-sunny-1br-great/7940208734.html"
+  },
+  {
+    "id": 165,
+    "category": "housing",
+    "title": "No broker fee!! Available NOW~ Renovated Studio in Brighton! Students",
+    "description": "No broker fee!! Available NOW~ Renovated Studio in Brighton! Students — Brighton",
+    "price": "$2,195",
+    "location": "Brighton",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://boston.craigslist.org/gbs/apa/d/brighton-no-broker-fee-available-now/7940198535.html"
+  },
+  {
+    "id": 166,
+    "category": "housing",
+    "title": "No broker fee!! SEPT Renovated 2b split in Brighton! Students ok! B li",
+    "description": "No broker fee!! SEPT Renovated 2b split in Brighton! Students ok! B li — Brighton",
+    "price": "$2,975",
+    "location": "Brighton",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": true,
+    "link": "https://boston.craigslist.org/gbs/apa/d/brighton-no-broker-fee-sept-renovated/7940197838.html"
+  },
+  {
+    "id": 167,
+    "category": "housing",
+    "title": "No Fee - Beautiful Two Bedroom Apartment",
+    "description": "No Fee - Beautiful Two Bedroom Apartment — Roslindale Village",
+    "price": "$2,895",
+    "location": "Roslindale Village",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://boston.craigslist.org/gbs/apa/d/roslindale-no-fee-beautiful-two-bedroom/7940197489.html"
+  },
+  {
+    "id": 168,
+    "category": "housing",
+    "title": "7/1 - 2BR in Brookline Village, easy access to Longwood, Olmstead Park",
+    "description": "7/1 - 2BR in Brookline Village, easy access to Longwood, Olmstead Park — Brookline",
+    "price": "$3,100",
+    "location": "Brookline",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://boston.craigslist.org/gbs/apa/d/brookline-br-in-brookline-village-easy/7940196668.html"
   },
   {
     "id": 169,
     "category": "housing",
-    "title": "Beautiful 1BD/1BA in West End – River Views, steps to North Station",
-    "description": "Beautiful 1BD/1BA in West End – River Views, steps to North Station",
-    "price": "$2,950",
-    "location": "Boston",
+    "title": "NO FEE! Available NOW or July- HUGE 1bed split w/Dishwasher in Allston",
+    "description": "NO FEE! Available NOW or July- HUGE 1bed split w/Dishwasher in Allston — Allston",
+    "price": "$2,675",
+    "location": "Allston",
     "languages": [
-      "en"
+      "en",
+      "zh"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://boston.craigslist.org/gbs/apa/d/boston-beautiful-1bd-1ba-in-west-end/7940153853.html"
+    "link": "https://boston.craigslist.org/gbs/apa/d/allston-no-fee-available-now-or-july/7940196331.html"
   },
   {
     "id": 170,
     "category": "housing",
-    "title": "Penthouse Suite 3 Beds, 2.5 Baths, Garage, Granite, Marble Staircase,",
-    "description": "Penthouse Suite 3 Beds, 2.5 Baths, Garage, Granite, Marble Staircase, — Cambridge \\ Davis Sq. \\ N. Cambridge",
-    "price": "$5,400",
-    "location": "Cambridge \\ Davis Sq. \\ N. Cambridge",
+    "title": "NO FEE! Cozy 1b in Allston, available 9/1 DISHWASHER- B line. Students",
+    "description": "NO FEE! Cozy 1b in Allston, available 9/1 DISHWASHER- B line. Students — Allston",
+    "price": "$2,365",
+    "location": "Allston",
     "languages": [
-      "en"
+      "en",
+      "zh"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://boston.craigslist.org/gbs/apa/d/cambridge-penthouse-suite-beds-25-baths/7940149096.html"
+    "link": "https://boston.craigslist.org/gbs/apa/d/allston-no-fee-cozy-1b-in-allston/7940194267.html"
   },
   {
     "id": 171,
     "category": "housing",
-    "title": "1br/1ba (1800/mo) in a 3br/2ba apartment - flexible moving dates DAVIS",
-    "description": "1br/1ba (1800/mo) in a 3br/2ba apartment - flexible moving dates DAVIS — Somerville",
-    "price": "$1,800",
-    "location": "Somerville",
+    "title": "Affordable Housing – Rent Reduce - The Artemis at Arlington Heights",
+    "description": "Affordable Housing – Rent Reduce - The Artemis at Arlington Heights — Arlington",
+    "price": "$2,177",
+    "location": "Arlington",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://boston.craigslist.org/gbs/apa/d/somerville-1br-1ba-1800-mo-in-3br-2ba/7940141380.html"
+    "link": "https://boston.craigslist.org/sob/apa/d/arlington-affordable-housing-rent/7940194150.html"
   },
   {
     "id": 172,
     "category": "housing",
-    "title": "1/BD, Roller shade window coverings, Spacious 9' ceilings",
-    "description": "1/BD, Roller shade window coverings, Spacious 9' ceilings — Boca Raton",
-    "price": "$4,132",
-    "location": "Boca Raton",
+    "title": "Resort-Style Pool & Lush Greenery Every Day! 🌴",
+    "description": "Resort-Style Pool & Lush Greenery Every Day! 🌴 — 9873 Lawrence Road, Boynton Beach, FL",
+    "price": "$1,999",
+    "location": "9873 Lawrence Road, Boynton Beach, FL",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": true,
+    "link": "https://miami.craigslist.org/pbc/apa/d/boynton-beach-resort-style-pool-lush/7935145138.html"
+  },
+  {
+    "id": 173,
+    "category": "housing",
+    "title": "Large portion or bulk of the home for rent",
+    "description": "Large portion or bulk of the home for rent — Dania Beach",
+    "price": "$1,650",
+    "location": "Dania Beach",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://miami.craigslist.org/pbc/apa/d/boca-raton-bd-roller-shade-window/7937480989.html"
+    "link": "https://miami.craigslist.org/brw/apa/d/fort-lauderdale-large-portion-or-bulk/7937619707.html"
   },
   {
-    "id": 173,
+    "id": 174,
     "category": "housing",
-    "title": "Stylish Interiors & Inviting Courtyards 🌿 Your Next Home Is Here",
-    "description": "Stylish Interiors & Inviting Courtyards 🌿 Your Next Home Is Here — 9873 Lawrence Road, Boynton Beach, FL",
-    "price": "$2,262",
+    "title": "Cable Ready, Easy Access to Shopping, Copy Services",
+    "description": "Cable Ready, Easy Access to Shopping, Copy Services — 2500 N Federal Hwy, Boca Raton, FL",
+    "price": "$2,520",
+    "location": "2500 N Federal Hwy, Boca Raton, FL",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://miami.craigslist.org/pbc/apa/d/boca-raton-cable-ready-easy-access-to/7938476368.html"
+  },
+  {
+    "id": 175,
+    "category": "housing",
+    "title": "Fitness & Tennis Just Steps from Your Door! 🎾",
+    "description": "Fitness & Tennis Just Steps from Your Door! 🎾 — 9873 Lawrence Road, Boynton Beach, FL",
+    "price": "$2,028",
     "location": "9873 Lawrence Road, Boynton Beach, FL",
     "languages": [
       "en"
@@ -1172,112 +1201,82 @@ export const SAMPLE_LISTINGS = [
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://miami.craigslist.org/pbc/apa/d/boynton-beach-stylish-interiors/7931414062.html"
-  },
-  {
-    "id": 174,
-    "category": "housing",
-    "title": "REMODELED 1/1 WITH PARKING ( ONLY FIRST MONTH AND 1 MONTH DEPOSIT )",
-    "description": "REMODELED 1/1 WITH PARKING ( ONLY FIRST MONTH AND 1 MONTH DEPOSIT ) — NORMANDY ISLES / MIAMI BEACH",
-    "price": "$1,900",
-    "location": "NORMANDY ISLES / MIAMI BEACH",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://miami.craigslist.org/mdc/apa/d/miami-beach-remodeled-1-with-parking/7935363506.html"
-  },
-  {
-    "id": 175,
-    "category": "housing",
-    "title": "GORGEOUS 2/1.5 WITH W/D, PARKING, JACUZZI, GYM.. ( ONLY $750 DEPOSIT )",
-    "description": "GORGEOUS 2/1.5 WITH W/D, PARKING, JACUZZI, GYM.. ( ONLY $750 DEPOSIT ) — LITTLE HAVANNA / DOWTOWWN",
-    "price": "$2,500",
-    "location": "LITTLE HAVANNA / DOWTOWWN",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://miami.craigslist.org/mdc/apa/d/miami-gorgeous-15-with-d-parking/7935505260.html"
+    "link": "https://miami.craigslist.org/pbc/apa/d/boynton-beach-fitness-tennis-just-steps/7937019007.html"
   },
   {
     "id": 176,
     "category": "housing",
-    "title": "GORGEOUS 1/1 WITH W/D , PARKING, POOL, GYM.. ( ONLY $1000 DEPOSIT )",
-    "description": "GORGEOUS 1/1 WITH W/D , PARKING, POOL, GYM.. ( ONLY $1000 DEPOSIT ) — DORAL",
-    "price": "$2,300",
-    "location": "DORAL",
+    "title": "Manufactured home",
+    "description": "Manufactured home",
+    "price": "$1,150",
+    "location": "Miami",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://miami.craigslist.org/mdc/apa/d/gorgeous-1-with-d-parking-pool-gym-only/7935352079.html"
+    "link": "https://miami.craigslist.org/mdc/apa/d/fort-lauderdale-manufactured-home/7940207042.html"
   },
   {
     "id": 177,
     "category": "housing",
-    "title": "LUXURY STUDIO WITH W/D, POOL, GYM, PARKING, ETC...( ONY 1000 DEPOSIT )",
-    "description": "LUXURY STUDIO WITH W/D, POOL, GYM, PARKING, ETC...( ONY 1000 DEPOSIT ) — MIDTOWN / EDGEWATER",
-    "price": "$2,500",
-    "location": "MIDTOWN / EDGEWATER",
+    "title": "Efficiency",
+    "description": "Efficiency",
+    "price": "$1,150",
+    "location": "Miami",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://miami.craigslist.org/mdc/apa/d/fort-lauderdale-efficiency/7940206702.html"
+  },
+  {
+    "id": 178,
+    "category": "housing",
+    "title": "Modern 3 Bed Townhouse in Miami | 2 Bath | FOR RENT",
+    "description": "Modern 3 Bed Townhouse in Miami | 2 Bath | FOR RENT — miami / dade county",
+    "price": "$2,495",
+    "location": "miami / dade county",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://miami.craigslist.org/mdc/apa/d/miami-modern-bed-townhouse-in-miami/7940206912.html"
+  },
+  {
+    "id": 179,
+    "category": "housing",
+    "title": "Manufactured home",
+    "description": "Manufactured home — MIAMI",
+    "price": "$1,150",
+    "location": "MIAMI",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://miami.craigslist.org/mdc/apa/d/miami-luxury-studio-with-d-pool-gym/7935399798.html"
-  },
-  {
-    "id": 178,
-    "category": "housing",
-    "title": "GORGEOUS 1/1 ALL MODERN WITH W/D, PARKING, POOL, GYM..ONLY 750 DEPOSIT",
-    "description": "GORGEOUS 1/1 ALL MODERN WITH W/D, PARKING, POOL, GYM..ONLY 750 DEPOSIT — COCONUT GROVE",
-    "price": "$2,650",
-    "location": "COCONUT GROVE",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://miami.craigslist.org/mdc/apa/d/gorgeous-1-all-modern-with-d-parking/7935505137.html"
-  },
-  {
-    "id": 179,
-    "category": "housing",
-    "title": "LUXURY 2/2 WITH W/D, PARKING, POOL, GYM, ETC.. ( ONLY $500 DEPOSIT )",
-    "description": "LUXURY 2/2 WITH W/D, PARKING, POOL, GYM, ETC.. ( ONLY $500 DEPOSIT ) — WYNWOOD",
-    "price": "$3,450",
-    "location": "WYNWOOD",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://miami.craigslist.org/mdc/apa/d/miami-luxury-2-with-d-parking-pool-gym/7935178970.html"
+    "link": "https://miami.craigslist.org/mdc/apa/d/fort-lauderdale-manufactured-home/7940206659.html"
   },
   {
     "id": 180,
     "category": "services",
-    "title": "DUMP RUNS & Moving Help",
-    "description": "DUMP RUNS & Moving Help — ALL OVER",
+    "title": "🚛 BROOKLYN MOVERS – AFFORDABLE FLAT RATE MOVING 🚛\nJUST4MOVE MOVING & STO",
+    "description": "🚛 BROOKLYN MOVERS – AFFORDABLE FLAT RATE MOVING 🚛\nJUST4MOVE MOVING & STO — Brooklyn",
     "price": "$0",
-    "location": "ALL OVER",
+    "location": "Brooklyn",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://newyork.craigslist.org/fct/lbs/d/southport-dump-runs-moving-help/7940167929.html"
+    "featured": true,
+    "link": "https://newyork.craigslist.org/brk/lbs/d/brooklyn-brooklyn-movers-affordable/7940189304.html"
   },
   {
     "id": 181,
@@ -1292,190 +1291,130 @@ export const SAMPLE_LISTINGS = [
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://newyork.craigslist.org/que/lbs/d/jamaica-garbage-removal-demo-tree/7940162386.html"
+    "link": "https://newyork.craigslist.org/que/lbs/d/jamaica-garbage-removal-demo-tree/7940187961.html"
   },
   {
     "id": 182,
     "category": "services",
-    "title": "2-3 STRONG LABORERS AVAILABLE! MOVING HELP!  ONLY $35 P.H PER MAN!",
-    "description": "2-3 STRONG LABORERS AVAILABLE! MOVING HELP!  ONLY $35 P.H PER MAN! — SERVICING THE ENTIRE N.Y.C LOADING/UNLOADING. APT SWAPS ETC!",
+    "title": "D&R movers and delivery",
+    "description": "D&R movers and delivery — Mount Vernon",
     "price": "$0",
-    "location": "SERVICING THE ENTIRE N.Y.C LOADING/UNLOADING. APT SWAPS ETC!",
+    "location": "Mount Vernon",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://newyork.craigslist.org/mnh/lbs/d/new-york-3-strong-laborers-available/7940150959.html"
+    "featured": true,
+    "link": "https://newyork.craigslist.org/brx/lbs/d/mount-vernon-dr-movers-and-delivery/7940187092.html"
   },
   {
     "id": 183,
     "category": "services",
-    "title": "$99 24/7 QUEENS  JUNK REMOVAL  COMMERCIAL, HOME OFFICE TRASH REMOVAL",
-    "description": "$99 24/7 QUEENS  JUNK REMOVAL  COMMERCIAL, HOME OFFICE TRASH REMOVAL — ALL N.Y.C $99 (24/7) 347-228-0532 CHEAP SAME-DAY REMOVAL",
+    "title": "MOVING? MVXPRESS MOVING 🚐💨 LOCAL / LONG DISTANCE / GARBAGE REMOVAL",
+    "description": "MOVING? MVXPRESS MOVING 🚐💨 LOCAL / LONG DISTANCE / GARBAGE REMOVAL — NY,NJ,CT,PA,MD,FL (929)405-4527",
     "price": "$0",
-    "location": "ALL N.Y.C $99 (24/7) 347-228-0532 CHEAP SAME-DAY REMOVAL",
+    "location": "NY,NJ,CT,PA,MD,FL (929)405-4527",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://newyork.craigslist.org/que/lbs/d/astoria-queens-junk-removal-commercial/7940150651.html"
+    "link": "https://newyork.craigslist.org/brk/lbs/d/brooklyn-moving-mvxpress-moving-local/7940182229.html"
   },
   {
     "id": 184,
     "category": "services",
-    "title": "Insured moving services  ● Man with a Van ● Last minute calls",
-    "description": "Insured moving services  ● Man with a Van ● Last minute calls — West Village",
+    "title": "LAST MINUTE SUPER SAVER MOVING GREAT PRICE 24/7 AVAILABILITY 80$/H",
+    "description": "LAST MINUTE SUPER SAVER MOVING GREAT PRICE 24/7 AVAILABILITY 80$/H — NY, Nj and beyond",
     "price": "$0",
-    "location": "West Village",
+    "location": "NY, Nj and beyond",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://newyork.craigslist.org/mnh/lbs/d/new-york-insured-moving-services-man/7940150533.html"
+    "featured": false,
+    "link": "https://newyork.craigslist.org/mnh/lbs/d/new-york-last-minute-super-saver-moving/7940178966.html"
   },
   {
     "id": 185,
     "category": "services",
-    "title": "DEMO/GARBAGE/JUNK & TREE REMOVAL”631 707-4313”",
-    "description": "DEMO/GARBAGE/JUNK & TREE REMOVAL”631 707-4313” — ALL OF QUEENS",
+    "title": "English man with a van. 25 years of small moves and artwork deliveries",
+    "description": "English man with a van. 25 years of small moves and artwork deliveries — 718.855.1101.  www.nyvanman.net",
     "price": "$0",
-    "location": "ALL OF QUEENS",
+    "location": "718.855.1101.  www.nyvanman.net",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://newyork.craigslist.org/que/lbs/d/queens-village-demo-garbage-junk-tree/7940142676.html"
+    "link": "https://newyork.craigslist.org/brk/lbs/d/brooklyn-english-man-with-van-25-years/7940172710.html"
   },
   {
     "id": 186,
     "category": "services",
-    "title": "!!!!LOCAL JOBS.WEEKLY TRIPS TO FL, GA. GREAT RATES!!!!!!!!!!!!!",
-    "description": "!!!!LOCAL JOBS.WEEKLY TRIPS TO FL, GA. GREAT RATES!!!!!!!!!!!!! — westchester",
+    "title": "Hauling and moving services",
+    "description": "Hauling and moving services — Long Island",
     "price": "$0",
-    "location": "westchester",
+    "location": "Long Island",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://newyork.craigslist.org/wch/lbs/d/local-jobsweekly-trips-to-fl-ga-great/7940142207.html"
+    "featured": true,
+    "link": "https://newyork.craigslist.org/que/lbs/d/jamaica-hauling-and-moving-services/7940172272.html"
   },
   {
     "id": 187,
     "category": "services",
-    "title": "Furniture Delivery🍀 Moving Services💯Last Minute",
-    "description": "Furniture Delivery🍀 Moving Services💯Last Minute — Brooklyn Heights",
+    "title": "DUMP RUNS & Moving Help",
+    "description": "DUMP RUNS & Moving Help — ALL OVER",
     "price": "$0",
-    "location": "Brooklyn Heights",
+    "location": "ALL OVER",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://newyork.craigslist.org/brk/lbs/d/brooklyn-furniture-delivery-moving/7940136286.html"
+    "link": "https://newyork.craigslist.org/fct/lbs/d/southport-dump-runs-moving-help/7940167929.html"
   },
   {
     "id": 188,
     "category": "services",
-    "title": "PROFESSIONAL E5 MOVING SERVICE / MOVERS",
-    "description": "PROFESSIONAL E5 MOVING SERVICE / MOVERS — Long Beach",
+    "title": "🔥🔥 $39 MOVING SPECIAL/ 2 Movers and Truck  CALL NOW🔥🔥",
+    "description": "🔥🔥 $39 MOVING SPECIAL/ 2 Movers and Truck  CALL NOW🔥🔥 — Los Angeles County",
     "price": "$0",
-    "location": "Long Beach",
+    "location": "Los Angeles County",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://losangeles.craigslist.org/lgb/lbs/d/long-beach-professional-e5-moving/7940166011.html"
+    "link": "https://losangeles.craigslist.org/lac/lbs/d/los-angeles-39-moving-special-movers/7940205298.html"
   },
   {
     "id": 189,
     "category": "services",
-    "title": "Expert Tree Trimming & Shaping • Ornamental Pruning • Free Estimates",
-    "description": "Expert Tree Trimming & Shaping • Ornamental Pruning • Free Estimates — Cerritos",
+    "title": "🚚AFFORDABLE MOVERS LOW RATES/LAST MINUTE AND JUNK REMOVAL SERVICES",
+    "description": "🚚AFFORDABLE MOVERS LOW RATES/LAST MINUTE AND JUNK REMOVAL SERVICES — Los Angeles 24hrs 📞 424-508-1047",
     "price": "$0",
-    "location": "Cerritos",
+    "location": "Los Angeles 24hrs 📞 424-508-1047",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://losangeles.craigslist.org/lgb/lbs/d/cerritos-expert-tree-trimming-shaping/7940165884.html"
+    "link": "https://losangeles.craigslist.org/wst/lbs/d/los-angeles-affordable-movers-low-rates/7940198365.html"
   },
   {
     "id": 190,
-    "category": "services",
-    "title": "MOVERS - JUNK REMOVAL HAULING - DEMOLITION DEMO - LOCAL MOVING MOVER",
-    "description": "MOVERS - JUNK REMOVAL HAULING - DEMOLITION DEMO - LOCAL MOVING MOVER — LOWEST PRICES - $90hr 2 MEN & TRUCK - WE BUY & SELL HOUSES",
-    "price": "$0",
-    "location": "LOWEST PRICES - $90hr 2 MEN & TRUCK - WE BUY & SELL HOUSES",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://losangeles.craigslist.org/wst/lbs/d/san-pedro-movers-junk-removal-hauling/7940164065.html"
-  },
-  {
-    "id": 191,
-    "category": "services",
-    "title": "PROFESSIONAL E5 MOVING SERVICE / MOVERS (Local & Long Distance Full Mo",
-    "description": "PROFESSIONAL E5 MOVING SERVICE / MOVERS (Local & Long Distance Full Mo — Van Nuys",
-    "price": "$0",
-    "location": "Van Nuys",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://losangeles.craigslist.org/sfv/lbs/d/van-nuys-professional-e5-moving-service/7940163427.html"
-  },
-  {
-    "id": 192,
-    "category": "services",
-    "title": "Lrg pickup equipped & reliable,on call..SM,Wla,BH, all LA",
-    "description": "Lrg pickup equipped & reliable,on call..SM,Wla,BH, all LA — Los angeles",
-    "price": "$0",
-    "location": "Los angeles",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://losangeles.craigslist.org/wst/lbs/d/venice-lrg-pickup-equipped-reliableon/7940163211.html"
-  },
-  {
-    "id": 193,
-    "category": "services",
-    "title": "🔥 🔥450 Full load $250  half load  🔥  Levi’s junk removal LLC",
-    "description": "🔥 🔥450 Full load $250  half load  🔥  Levi’s junk removal LLC — San Fernando valley and Los Angeles and Thousand Oaks",
-    "price": "$0",
-    "location": "San Fernando valley and Los Angeles and Thousand Oaks",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://losangeles.craigslist.org/sfv/lbs/d/tarzana-450-full-load-250-half-load/7940162625.html"
-  },
-  {
-    "id": 194,
     "category": "services",
     "title": "🚛 Two Movers and a Truck – Fast, Reliable & Affordable!",
     "description": "🚛 Two Movers and a Truck – Fast, Reliable & Affordable! — San Fernando",
@@ -1487,142 +1426,202 @@ export const SAMPLE_LISTINGS = [
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://losangeles.craigslist.org/sfv/lbs/d/san-fernando-two-movers-and-truck-fast/7940161690.html"
+    "link": "https://losangeles.craigslist.org/sfv/lbs/d/san-fernando-two-movers-and-truck-fast/7940196909.html"
+  },
+  {
+    "id": 191,
+    "category": "services",
+    "title": "🍀 🎯 $55 / HOUR MOVING SPECIAL 🎯 🍀",
+    "description": "🍀 🎯 $55 / HOUR MOVING SPECIAL 🎯 🍀 — 🍀 🎯 SMALL JOBS OK ! 🎯 🍀",
+    "price": "$0",
+    "location": "🍀 🎯 SMALL JOBS OK ! 🎯 🍀",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/wst/lbs/d/los-angeles-55-hour-moving-special/7940192220.html"
+  },
+  {
+    "id": 192,
+    "category": "services",
+    "title": "Moving-Furniture/Appliance Delivery, Packing, Skilled Pro-EquipMOVERS",
+    "description": "Moving-Furniture/Appliance Delivery, Packing, Skilled Pro-EquipMOVERS — All West L.A & More. San Francisco, San Diego, Sacramento",
+    "price": "$0",
+    "location": "All West L.A & More. San Francisco, San Diego, Sacramento",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/wst/lbs/d/los-angeles-moving-furniture-appliance/7940191744.html"
+  },
+  {
+    "id": 193,
+    "category": "services",
+    "title": "⭐ PICK UP/DELIVERY & VEHICLE/RV/TRAILER/BOAT HAULING ⭐ 702.551.1717 ⭐",
+    "description": "⭐ PICK UP/DELIVERY & VEHICLE/RV/TRAILER/BOAT HAULING ⭐ 702.551.1717 ⭐ — Los Angeles, Surrounding Areas & All 48 States",
+    "price": "$0",
+    "location": "Los Angeles, Surrounding Areas & All 48 States",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/wst/lbs/d/los-angeles-pick-up-delivery-vehicle-rv/7940191361.html"
+  },
+  {
+    "id": 194,
+    "category": "services",
+    "title": "🔥➪➪MOVING HELP HERE! Get a FULL SERVICE move at LOW RATES!",
+    "description": "🔥➪➪MOVING HELP HERE! Get a FULL SERVICE move at LOW RATES! — 🔥🔥🔥 All",
+    "price": "$0",
+    "location": "🔥🔥🔥 All",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/lac/lbs/d/los-angeles-moving-help-here-get-full/7940186901.html"
   },
   {
     "id": 195,
     "category": "services",
-    "title": "SAME DAY / JUNK REMOVAL / JUNK HAULING / TRASH HAULING / TRASH PICK UP",
-    "description": "SAME DAY / JUNK REMOVAL / JUNK HAULING / TRASH HAULING / TRASH PICK UP — Text or Call Will Respond in 10 Second!",
+    "title": "____JUNK  & TRASH REMOVAL & HAULING & CLEAN UP   323-289-5916 Jay",
+    "description": "____JUNK  & TRASH REMOVAL & HAULING & CLEAN UP   323-289-5916 Jay — Text pictures for FREE Estimates",
     "price": "$0",
-    "location": "Text or Call Will Respond in 10 Second!",
+    "location": "Text pictures for FREE Estimates",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://losangeles.craigslist.org/sgv/lbs/d/temple-city-same-day-junk-removal-junk/7940161198.html"
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/lac/lbs/d/inglewood-junk-trash-removal-hauling/7940186754.html"
   },
   {
     "id": 196,
     "category": "services",
-    "title": "Moving Service. $89/HOUR—2 MOVERS MOVER🌎☎️☎️☎️🌎SAME DAY MOVE",
-    "description": "Moving Service. $89/HOUR—2 MOVERS MOVER🌎☎️☎️☎️🌎SAME DAY MOVE — santa clara",
+    "title": "Property Cleanouts, Storage Cleanouts, Demolition, Junk Removal",
+    "description": "Property Cleanouts, Storage Cleanouts, Demolition, Junk Removal — vallejo / benicia",
     "price": "$0",
-    "location": "santa clara",
+    "location": "vallejo / benicia",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://sfbay.craigslist.org/sby/lbs/d/santa-clara-moving-service-89-hour2/7940168417.html"
+    "link": "https://sfbay.craigslist.org/eby/lbs/d/vallejo-property-cleanouts-storage/7940207390.html"
   },
   {
     "id": 197,
     "category": "services",
-    "title": "☎️☎️  San Francisco Moving Services",
-    "description": "☎️☎️  San Francisco Moving Services — San Francisco, San Jose, Sacramento, Santa Rosa, Santa Cruz",
+    "title": "🌎♻️ 🚚 Junk Removal Same Day Service Available All Bay Area 🌎♻️",
+    "description": "🌎♻️ 🚚 Junk Removal Same Day Service Available All Bay Area 🌎♻️ — mountain view",
     "price": "$0",
-    "location": "San Francisco, San Jose, Sacramento, Santa Rosa, Santa Cruz",
+    "location": "mountain view",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://sfbay.craigslist.org/sfc/lbs/d/san-francisco-san-francisco-moving/7940167711.html"
+    "featured": true,
+    "link": "https://sfbay.craigslist.org/sby/lbs/d/mountain-view-junk-removal-same-day/7940203161.html"
   },
   {
     "id": 198,
     "category": "services",
-    "title": "🚛SOUTH BAY MOVERS🚨LAST MINUTE MOVER》HOME-OFFICE-PIANO-DELIVERY-LABOR",
-    "description": "🚛SOUTH BAY MOVERS🚨LAST MINUTE MOVER》HOME-OFFICE-PIANO-DELIVERY-LABOR — ✅️San Jose-Cupertino-Sunnyvale-Milpitas-Campbell✅️ALL AREA",
+    "title": "Junk Removal & Hauling – Fast, Affordable Service",
+    "description": "Junk Removal & Hauling – Fast, Affordable Service — Vallejo",
     "price": "$0",
-    "location": "✅️San Jose-Cupertino-Sunnyvale-Milpitas-Campbell✅️ALL AREA",
+    "location": "Vallejo",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://sfbay.craigslist.org/sby/lbs/d/campbell-south-bay-moverslast-minute/7940165293.html"
+    "link": "https://sfbay.craigslist.org/nby/lbs/d/vallejo-junk-removal-hauling-fast/7940194591.html"
   },
   {
     "id": 199,
     "category": "services",
-    "title": "🏃🏃🏃HOMES / OFFICE / APTS / Licensed & Insured Movers",
-    "description": "🏃🏃🏃HOMES / OFFICE / APTS / Licensed & Insured Movers — Local & Long-distance move",
+    "title": "⭐ PICK UP/DELIVERY & VEHICLE/RV/TRAILER/BOAT HAULING ⭐ 702.551.1717 ⭐",
+    "description": "⭐ PICK UP/DELIVERY & VEHICLE/RV/TRAILER/BOAT HAULING ⭐ 702.551.1717 ⭐ — San Francisco, Surrounding Areas & All 48 States",
     "price": "$0",
-    "location": "Local & Long-distance move",
+    "location": "San Francisco, Surrounding Areas & All 48 States",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://sfbay.craigslist.org/eby/lbs/d/union-city-homes-office-apts-licensed/7940161547.html"
+    "link": "https://sfbay.craigslist.org/nby/lbs/d/south-san-francisco-pick-up-delivery/7940191647.html"
   },
   {
     "id": 200,
     "category": "services",
-    "title": "⭐️🚚ARTURO’S MOVING⭐️🚚LOCAL & LONG⭐️🚚DISTANCE SERVICE⭐",
-    "description": "⭐️🚚ARTURO’S MOVING⭐️🚚LOCAL & LONG⭐️🚚DISTANCE SERVICE⭐ — sunnyvale",
+    "title": "HAVE JUNK? BAY AREA JUNK HAULING ✅",
+    "description": "HAVE JUNK? BAY AREA JUNK HAULING ✅ — dublin / pleasanton / livermore",
     "price": "$0",
-    "location": "sunnyvale",
+    "location": "dublin / pleasanton / livermore",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://sfbay.craigslist.org/sby/lbs/d/sunnyvale-arturos-movinglocal/7940161173.html"
+    "link": "https://sfbay.craigslist.org/eby/lbs/d/pleasanton-have-junk-bay-area-junk/7940191396.html"
   },
   {
     "id": 201,
     "category": "services",
-    "title": "♻️♻️♻️AA Junk Removal & Hauling 24/7 BEST PRICES  !!*$$SAME DAY",
-    "description": "♻️♻️♻️AA Junk Removal & Hauling 24/7 BEST PRICES  !!*$$SAME DAY — Novato",
+    "title": "Professional Vehicle Relocation – Class B Licensed Driver (Nationwide)",
+    "description": "Professional Vehicle Relocation – Class B Licensed Driver (Nationwide) — city of san francisco",
     "price": "$0",
-    "location": "Novato",
+    "location": "city of san francisco",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://sfbay.craigslist.org/nby/lbs/d/novato-aa-junk-removal-hauling-24-best/7940158901.html"
+    "link": "https://sfbay.craigslist.org/sfc/lbs/d/san-francisco-professional-vehicle/7940185932.html"
   },
   {
     "id": 202,
     "category": "services",
-    "title": "♻️♻️♻️AA Junk Removal & Hauling 24/7 BEST PRICES !!!***same day",
-    "description": "♻️♻️♻️AA Junk Removal & Hauling 24/7 BEST PRICES !!!***same day — Sonoma",
+    "title": "BAY AREA JUNK HAULING - AVAILABLE TODAY ✅",
+    "description": "BAY AREA JUNK HAULING - AVAILABLE TODAY ✅ — ENTIRE BAY AREA",
     "price": "$0",
-    "location": "Sonoma",
+    "location": "ENTIRE BAY AREA",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://sfbay.craigslist.org/nby/lbs/d/sonoma-aa-junk-removal-hauling-24-best/7940158856.html"
+    "link": "https://sfbay.craigslist.org/eby/lbs/d/fremont-bay-area-junk-hauling-available/7940185788.html"
   },
   {
     "id": 203,
     "category": "services",
-    "title": "♻️♻️♻️AA Junk removal & hauling 24/7BEST PRICES  !!*$$SAME DAY",
-    "description": "♻️♻️♻️AA Junk removal & hauling 24/7BEST PRICES  !!*$$SAME DAY — Petaluma",
+    "title": "Hauling service",
+    "description": "Hauling service — oakland hills / mills",
     "price": "$0",
-    "location": "Petaluma",
+    "location": "oakland hills / mills",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://sfbay.craigslist.org/nby/lbs/d/petaluma-aa-junk-removal-hauling-24/7940158775.html"
+    "featured": false,
+    "link": "https://sfbay.craigslist.org/eby/lbs/d/oakland-hauling-service/7940185775.html"
   },
   {
     "id": 204,
@@ -1636,7 +1635,7 @@ export const SAMPLE_LISTINGS = [
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
+    "featured": false,
     "link": "https://toronto.craigslist.org/tor/lbs/d/toronto-pat-brian-movers-50-up/7940009477.html"
   },
   {
@@ -1651,7 +1650,7 @@ export const SAMPLE_LISTINGS = [
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
+    "featured": false,
     "link": "https://toronto.craigslist.org/tor/lbs/d/etobicoke-relaxation-massage-for-men-by/7939811176.html"
   },
   {
@@ -1681,7 +1680,7 @@ export const SAMPLE_LISTINGS = [
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
+    "featured": true,
     "link": "https://toronto.craigslist.org/tor/lbs/d/downtown-toronto-toronto-long-distance/7939678035.html"
   },
   {
@@ -1696,7 +1695,7 @@ export const SAMPLE_LISTINGS = [
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
+    "featured": true,
     "link": "https://toronto.craigslist.org/tor/lbs/d/north-york-men-and-truck-small-delivery/7939494766.html"
   },
   {
@@ -1711,7 +1710,7 @@ export const SAMPLE_LISTINGS = [
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
+    "featured": false,
     "link": "https://toronto.craigslist.org/tor/lbs/d/north-york-toronto-mover-5450-hr-call/7939151164.html"
   },
   {
@@ -1741,453 +1740,465 @@ export const SAMPLE_LISTINGS = [
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
+    "featured": false,
     "link": "https://toronto.craigslist.org/tor/lbs/d/toronto-movers-save-with-man-with-big/7938934144.html"
   },
   {
     "id": 212,
     "category": "items",
-    "title": "TITLEIST PRO-Vs-LIKE NEW",
-    "description": "TITLEIST PRO-Vs-LIKE NEW — fairfield co, CT",
-    "price": "$1",
-    "location": "fairfield co, CT",
+    "title": "Modern Black Sectional Sofa with Ottoman – Stylish & Comfortable",
+    "description": "Modern Black Sectional Sofa with Ottoman – Stylish & Comfortable — Fort Worth",
+    "price": "$200",
+    "location": "Fort Worth",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://newyork.craigslist.org/fct/for/d/milford-titleist-pro-vs-like-new/7930685360.html"
+    "link": "https://newyork.craigslist.org/jsy/fuo/d/fort-worth-modern-black-sectional-sofa/7928587975.html"
   },
   {
     "id": 213,
     "category": "items",
-    "title": "Construction harness",
-    "description": "Construction harness — westchester",
+    "title": "Modern Round Coffee Table – Dark Wood Finish",
+    "description": "Modern Round Coffee Table – Dark Wood Finish — Fort Worth",
     "price": "$40",
-    "location": "westchester",
+    "location": "Fort Worth",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://newyork.craigslist.org/wch/tls/d/yonkers-construction-harness/7940170746.html"
+    "featured": false,
+    "link": "https://newyork.craigslist.org/jsy/fuo/d/fort-worth-modern-round-coffee-table/7928585780.html"
   },
   {
     "id": 214,
     "category": "items",
-    "title": "HARLEY “GEARS EDITION” LIGHTER",
-    "description": "HARLEY “GEARS EDITION” LIGHTER — Milford",
-    "price": "$65",
-    "location": "Milford",
+    "title": "Luxury Black Leather Office Chair – Comfortable & Stylish",
+    "description": "Luxury Black Leather Office Chair – Comfortable & Stylish — Fort Worth",
+    "price": "$50",
+    "location": "Fort Worth",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://newyork.craigslist.org/fct/for/d/milford-harley-gears-edition-lighter/7929371989.html"
+    "featured": false,
+    "link": "https://newyork.craigslist.org/jsy/fuo/d/fort-worth-luxury-black-leather-office/7928583045.html"
   },
   {
     "id": 215,
     "category": "items",
-    "title": "Greenworks battery-powered edger (tool only)",
-    "description": "Greenworks battery-powered edger (tool only) — Cortlandt Manor",
-    "price": "$50",
-    "location": "Cortlandt Manor",
+    "title": "Ergonomic Mesh Office Chair – Adjustable & Comfortable",
+    "description": "Ergonomic Mesh Office Chair – Adjustable & Comfortable — Fort Worth",
+    "price": "$40",
+    "location": "Fort Worth",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://newyork.craigslist.org/wch/tls/d/croton-on-hudson-greenworks-battery/7937117657.html"
+    "link": "https://newyork.craigslist.org/jsy/fuo/d/fort-worth-ergonomic-mesh-office-chair/7925313606.html"
   },
   {
     "id": 216,
     "category": "items",
-    "title": "Beautiful British shorthair cat",
-    "description": "Beautiful British shorthair cat — Brooklyn",
-    "price": "$800",
-    "location": "Brooklyn",
+    "title": "Like New Midea 4-Burner Gas Stove with Oven – Stainless Steel",
+    "description": "Like New Midea 4-Burner Gas Stove with Oven – Stainless Steel — Fort Worth",
+    "price": "$170",
+    "location": "Fort Worth",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://newyork.craigslist.org/brk/for/d/brooklyn-beautiful-british-shorthair-cat/7933943953.html"
+    "featured": false,
+    "link": "https://newyork.craigslist.org/jsy/app/d/fort-worth-like-new-midea-burner-gas/7925312940.html"
   },
   {
     "id": 217,
     "category": "items",
-    "title": "PS4 games",
-    "description": "PS4 games — westchester",
-    "price": "$30",
-    "location": "westchester",
+    "title": "Comfortable Black Leather Office Chair – Swivel & Adjustable",
+    "description": "Comfortable Black Leather Office Chair – Swivel & Adjustable — Fort Worth",
+    "price": "$60",
+    "location": "Fort Worth",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://newyork.craigslist.org/wch/vgm/d/yonkers-ps4-games/7939653351.html"
+    "link": "https://newyork.craigslist.org/jsy/fuo/d/fort-worth-comfortable-black-leather/7925312511.html"
   },
   {
     "id": 218,
     "category": "items",
-    "title": "Guitar accessories",
-    "description": "Guitar accessories — westchester",
-    "price": "$25",
-    "location": "westchester",
+    "title": "Modern Gray Sectional Sofa with Ottoman – Clean & Comfortable",
+    "description": "Modern Gray Sectional Sofa with Ottoman – Clean & Comfortable — Fort Worth",
+    "price": "$150",
+    "location": "Fort Worth",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://newyork.craigslist.org/wch/msg/d/yonkers-guitar-accessories/7933253917.html"
+    "link": "https://newyork.craigslist.org/jsy/fuo/d/fort-worth-modern-gray-sectional-sofa/7923223235.html"
   },
   {
     "id": 219,
     "category": "items",
-    "title": "2019 Dodge pro master 2500",
-    "description": "2019 Dodge pro master 2500 — staten island",
-    "price": "$26,000",
-    "location": "staten island",
+    "title": "Modern Green Velvet Sofa – Stylish & Comfortable",
+    "description": "Modern Green Velvet Sofa – Stylish & Comfortable — Fort Worth",
+    "price": "$70",
+    "location": "Fort Worth",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://newyork.craigslist.org/stn/cto/d/staten-island-2019-dodge-pro-master-2500/7940171246.html"
+    "link": "https://newyork.craigslist.org/jsy/fuo/d/fort-worth-modern-green-velvet-sofa/7923220064.html"
   },
   {
     "id": 220,
     "category": "items",
-    "title": "Wine Corks more than 3,000 enough for your infiniti design",
-    "description": "Wine Corks more than 3,000 enough for your infiniti design — WEST COVINA",
-    "price": "$1",
-    "location": "WEST COVINA",
+    "title": "Aquarium fish tank 20gal 12\"x24\"x17\"",
+    "description": "Aquarium fish tank 20gal 12\"x24\"x17\" — Torrance",
+    "price": "$20",
+    "location": "Torrance",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://losangeles.craigslist.org/sgv/for/d/wine-corks-more-than-3000-enough-for/7937712991.html"
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/wst/for/d/torrance-aquarium-fish-tank-20gal/7940209501.html"
   },
   {
     "id": 221,
     "category": "items",
-    "title": "2003 SUZUKI BANDIT 1200",
-    "description": "2003 SUZUKI BANDIT 1200 — Los angeles Canoga Park",
-    "price": "$1,800",
-    "location": "Los angeles Canoga Park",
+    "title": "2 Feet Ladder Жаиж",
+    "description": "2 Feet Ladder Жаиж — Winnetka",
+    "price": "$0",
+    "location": "Winnetka",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://losangeles.craigslist.org/sfv/mpo/d/winnetka-2003-suzuki-bandit-1200/7908222495.html"
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/sfv/for/d/winnetka-feet-ladder/7940209415.html"
   },
   {
     "id": 222,
     "category": "items",
-    "title": "Vintage cartoon/character Gift bag",
-    "description": "Vintage cartoon/character Gift bag — west covina",
-    "price": "$2",
-    "location": "west covina",
+    "title": "GAS DRYER 1yr OLD CAN DELIVER NO WASHER",
+    "description": "GAS DRYER 1yr OLD CAN DELIVER NO WASHER — antelope valley",
+    "price": "$230",
+    "location": "antelope valley",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://losangeles.craigslist.org/sgv/for/d/vintage-cartoon-character-gift-bag/7937713158.html"
+    "link": "https://losangeles.craigslist.org/ant/app/d/lancaster-gas-dryer-1yr-old-can-deliver/7940209396.html"
   },
   {
     "id": 223,
     "category": "items",
-    "title": "Finding Nemo (DVD) (2-Disc Collector's Edition)Mandarin/Cantonese",
-    "description": "Finding Nemo (DVD) (2-Disc Collector's Edition)Mandarin/Cantonese — san gabriel valley",
-    "price": "$10",
-    "location": "san gabriel valley",
+    "title": "privacy plants make a large wall with plants, %50 cheaper",
+    "description": "privacy plants make a large wall with plants, %50 cheaper — RIVERSIDE",
+    "price": "$80",
+    "location": "RIVERSIDE",
     "languages": [
-      "en",
-      "zh"
+      "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://losangeles.craigslist.org/sgv/emd/d/west-covina-finding-nemo-dvd-disc/7937713067.html"
+    "link": "https://losangeles.craigslist.org/wst/for/d/jurupa-valley-privacy-plants-make-large/7937298556.html"
   },
   {
     "id": 224,
     "category": "items",
-    "title": "2 Fish (Clear) by CRISTAL D'ARQUES-DURAND",
-    "description": "2 Fish (Clear) by CRISTAL D'ARQUES-DURAND — san gabriel valley",
-    "price": "$20",
-    "location": "san gabriel valley",
+    "title": "WASHER WORKS GREAT CAN DELIVER NO DRYER",
+    "description": "WASHER WORKS GREAT CAN DELIVER NO DRYER — antelope valley",
+    "price": "$165",
+    "location": "antelope valley",
     "languages": [
-      "en",
-      "zh"
+      "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://losangeles.craigslist.org/sgv/hsh/d/west-covina-fish-clear-by-cristal/7936522875.html"
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/ant/app/d/lancaster-washer-works-great-can/7940209240.html"
   },
   {
     "id": 225,
     "category": "items",
-    "title": "Like NEW ! Pier-1  contemporary 11” Plates-set of 2",
-    "description": "Like NEW ! Pier-1  contemporary 11” Plates-set of 2 — west covina",
-    "price": "$8",
-    "location": "west covina",
+    "title": "Inlaid top game table",
+    "description": "Inlaid top game table — Redondo Beach",
+    "price": "$950",
+    "location": "Redondo Beach",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://losangeles.craigslist.org/sgv/hsh/d/west-covina-like-new-pier-contemporary/7936522826.html"
+    "featured": true,
+    "link": "https://losangeles.craigslist.org/wst/atq/d/redondo-beach-inlaid-top-game-table/7904160031.html"
   },
   {
     "id": 226,
     "category": "items",
-    "title": "Complete Set of 4 vintage Campbell’s kids 3D Shadow Box Framed Art",
-    "description": "Complete Set of 4 vintage Campbell’s kids 3D Shadow Box Framed Art — WEST COVINA",
-    "price": "$500",
-    "location": "WEST COVINA",
+    "title": "Antique gilt wood mirror. Column side with folia",
+    "description": "Antique gilt wood mirror. Column side with folia — Redondo Beach",
+    "price": "$2,000",
+    "location": "Redondo Beach",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://losangeles.craigslist.org/sgv/art/d/complete-set-of-vintage-campbells-kids/7936522693.html"
+    "link": "https://losangeles.craigslist.org/wst/fuo/d/redondo-beach-antique-gilt-wood-mirror/7912327831.html"
   },
   {
     "id": 227,
     "category": "items",
-    "title": "LIKE NEW ! Short sleeves TEES",
-    "description": "LIKE NEW ! Short sleeves TEES — west covina",
-    "price": "$3",
-    "location": "west covina",
+    "title": "Vintage caeved wooden leather top side table",
+    "description": "Vintage caeved wooden leather top side table — Redondo Beach",
+    "price": "$400",
+    "location": "Redondo Beach",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://losangeles.craigslist.org/sgv/clo/d/west-covina-like-new-short-sleeves-tees/7936522747.html"
+    "link": "https://losangeles.craigslist.org/wst/atq/d/redondo-beach-vintage-caeved-wooden/7913374275.html"
   },
   {
     "id": 228,
     "category": "items",
-    "title": "2 seat loveseat futon",
-    "description": "2 seat loveseat futon — san rafael",
-    "price": "$0",
-    "location": "san rafael",
+    "title": "Brand New Cordless Vacuum Cleaner 650W 55KPa 70Mins",
+    "description": "Brand New Cordless Vacuum Cleaner 650W 55KPa 70Mins — San Lorenzo",
+    "price": "$120",
+    "location": "San Lorenzo",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://sfbay.craigslist.org/nby/zip/d/kentfield-seat-loveseat-futon/7937952993.html"
+    "featured": false,
+    "link": "https://sfbay.craigslist.org/eby/for/d/san-lorenzo-brand-new-cordless-vacuum/7934849538.html"
   },
   {
     "id": 229,
     "category": "items",
-    "title": "Grey Cabinet (s) with Sliding Doors (2 Cabinets Available) OBO",
-    "description": "Grey Cabinet (s) with Sliding Doors (2 Cabinets Available) OBO — san rafael",
-    "price": "$300",
-    "location": "san rafael",
+    "title": "Brand New 30\" W x 12\" D x 62\" H Garage Storage Rack (Not for Heavy Duty)",
+    "description": "Brand New 30\" W x 12\" D x 62\" H Garage Storage Rack (Not for Heavy Duty) — San Lorenzo",
+    "price": "$60",
+    "location": "San Lorenzo",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://sfbay.craigslist.org/nby/fuo/d/kentfield-grey-cabinet-with-sliding/7937112715.html"
+    "featured": true,
+    "link": "https://sfbay.craigslist.org/eby/for/d/san-lorenzo-brand-new-30-x-12-x-62/7937140844.html"
   },
   {
     "id": 230,
     "category": "items",
-    "title": "5 drawer dresser",
-    "description": "5 drawer dresser — san rafael",
-    "price": "$0",
-    "location": "san rafael",
+    "title": "Brand New 52“ Ceiling Fan with Remote Control",
+    "description": "Brand New 52“ Ceiling Fan with Remote Control — San Lorenzo",
+    "price": "$90",
+    "location": "San Lorenzo",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://sfbay.craigslist.org/nby/zip/d/kentfield-drawer-dresser/7937768062.html"
+    "link": "https://sfbay.craigslist.org/eby/for/d/san-lorenzo-brand-new-52-ceiling-fan/7936678868.html"
   },
   {
     "id": 231,
     "category": "items",
-    "title": "Car Dash Camera with Wide angle Dash (NEW)",
-    "description": "Car Dash Camera with Wide angle Dash (NEW) — san leandro",
-    "price": "$40",
-    "location": "san leandro",
+    "title": "ZAFRO Nugget Ice Maker Countertop with Handle,35Lbs/24Hrs,7 Mins Fast",
+    "description": "ZAFRO Nugget Ice Maker Countertop with Handle,35Lbs/24Hrs,7 Mins Fast — south san francisco",
+    "price": "$100",
+    "location": "south san francisco",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://sfbay.craigslist.org/eby/ele/d/san-leandro-car-dash-camera-with-wide/7940170801.html"
+    "link": "https://sfbay.craigslist.org/pen/ele/d/san-bruno-zafro-nugget-ice-maker/7903765049.html"
   },
   {
     "id": 232,
     "category": "items",
-    "title": "HERMAN MILLER AERON REMASTERED SIZE C - WITH ATLAS HEADREST",
-    "description": "HERMAN MILLER AERON REMASTERED SIZE C - WITH ATLAS HEADREST — San Jose",
-    "price": "$1,100",
-    "location": "San Jose",
+    "title": "QOD Electric Golf Caddy (Q1-6) Lithium Battery/Charger *NO REMOTE*",
+    "description": "QOD Electric Golf Caddy (Q1-6) Lithium Battery/Charger *NO REMOTE* — san jose south",
+    "price": "$1,000",
+    "location": "san jose south",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://sfbay.craigslist.org/sby/fuo/d/san-jose-herman-miller-aeron-remastered/7940170789.html"
+    "link": "https://sfbay.craigslist.org/sby/spo/d/san-jose-qod-electric-golf-caddy-q1/7940209465.html"
   },
   {
     "id": 233,
     "category": "items",
-    "title": "LiveWire Solutions ABY Switch pedal",
-    "description": "LiveWire Solutions ABY Switch pedal — ingleside / SFSU / CCSF",
-    "price": "$35",
-    "location": "ingleside / SFSU / CCSF",
+    "title": "ZAFRO Nugget Ice Maker Countertop with Handle,35Lbs/24Hrs,7 Mins Fast",
+    "description": "ZAFRO Nugget Ice Maker Countertop with Handle,35Lbs/24Hrs,7 Mins Fast — south san francisco",
+    "price": "$100",
+    "location": "south san francisco",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://sfbay.craigslist.org/sfc/msg/d/san-francisco-livewire-solutions-aby/7933847075.html"
+    "link": "https://sfbay.craigslist.org/pen/app/d/san-bruno-zafro-nugget-ice-maker/7903765078.html"
   },
   {
     "id": 234,
     "category": "items",
-    "title": "4 illy Red Logo Coffee Cups O Handle IPA Italy Cafe Cups",
-    "description": "4 illy Red Logo Coffee Cups O Handle IPA Italy Cafe Cups — Sunset",
-    "price": "$35",
-    "location": "Sunset",
+    "title": "Slime Compact Tire Inflator with LED Light & Adapters",
+    "description": "Slime Compact Tire Inflator with LED Light & Adapters — south san francisco",
+    "price": "$20",
+    "location": "south san francisco",
     "languages": [
-      "en",
-      "zh"
+      "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://sfbay.craigslist.org/sfc/hsh/d/san-francisco-illy-red-logo-coffee-cups/7938711522.html"
+    "featured": true,
+    "link": "https://sfbay.craigslist.org/pen/pts/d/san-bruno-slime-compact-tire-inflator/7927485301.html"
   },
   {
     "id": 235,
     "category": "items",
-    "title": "TC Electronic Ditto",
-    "description": "TC Electronic Ditto — ingleside / SFSU / CCSF",
-    "price": "$70",
-    "location": "ingleside / SFSU / CCSF",
+    "title": "Sound DJ-Quake 1&2 Amplifier & 12-Inch Subwoofer 1200-Watt",
+    "description": "Sound DJ-Quake 1&2 Amplifier & 12-Inch Subwoofer 1200-Watt — south san francisco",
+    "price": "$300",
+    "location": "south san francisco",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://sfbay.craigslist.org/sfc/msg/d/san-francisco-tc-electronic-ditto/7933842884.html"
+    "featured": true,
+    "link": "https://sfbay.craigslist.org/pen/ele/d/san-bruno-sound-dj-quake-12-amplifier/7934886888.html"
   },
   {
     "id": 236,
     "category": "vehicles",
-    "title": "2019 Dodge pro master 2500",
-    "description": "2019 Dodge pro master 2500 — staten island",
-    "price": "$26,000",
-    "location": "staten island",
+    "title": "2023 Mercedes Benz G class",
+    "description": "2023 Mercedes Benz G class — westbury",
+    "price": "$188,000",
+    "location": "westbury",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://newyork.craigslist.org/stn/cto/d/staten-island-2019-dodge-pro-master-2500/7940171246.html"
+    "featured": false,
+    "link": "https://newyork.craigslist.org/lgi/ctd/d/westbury-2023-mercedes-benz-class/7940209251.html"
   },
   {
     "id": 237,
     "category": "vehicles",
-    "title": "2007 Toyota Camry XLE Sedan - 187,000 Miles - Fully Loaded",
-    "description": "2007 Toyota Camry XLE Sedan - 187,000 Miles - Fully Loaded — QUEENS",
-    "price": "$3,200",
-    "location": "QUEENS",
+    "title": "2015 Toyota Prius",
+    "description": "2015 Toyota Prius — Upper West Side",
+    "price": "$10,000",
+    "location": "Upper West Side",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://newyork.craigslist.org/que/cto/d/south-ozone-park-2007-toyota-camry-xle/7940170914.html"
+    "link": "https://newyork.craigslist.org/mnh/cto/d/new-york-2015-toyota-prius/7940206201.html"
   },
   {
     "id": 238,
     "category": "vehicles",
-    "title": "2024 Audi A6 quattro Premium Plus 45 TFSI AWD 4dr Sedan Call/Text 516- 614-5359",
-    "description": "2024 Audi A6 quattro Premium Plus 45 TFSI AWD 4dr Sedan Call/Text 516- 614-5359 — + EVERYONE FINANCED!!  PODEMOS FINANCIAR A CUALQUIERA!",
-    "price": "$26,595",
-    "location": "+ EVERYONE FINANCED!!  PODEMOS FINANCIAR A CUALQUIERA!",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://newyork.craigslist.org/brk/ctd/d/bethpage-2024-audi-a6-quattro-premium/7940163785.html"
-  },
-  {
-    "id": 239,
-    "category": "vehicles",
-    "title": "2012 Honda CR-V EX-L (Leather/Loaded) -182k Highway Miles - Runs Perf",
-    "description": "2012 Honda CR-V EX-L (Leather/Loaded) -182k Highway Miles - Runs Perf — Brooklyn",
-    "price": "$6,800",
-    "location": "Brooklyn",
+    "title": "2006 Infiniti M35 (negotiable)",
+    "description": "2006 Infiniti M35 (negotiable) — Queens, NY",
+    "price": "$3,500",
+    "location": "Queens, NY",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://newyork.craigslist.org/brk/cto/d/brooklyn-2012-honda-cr-ex-leather/7940163444.html"
+    "link": "https://newyork.craigslist.org/que/cto/d/long-island-city-2006-infiniti-m35/7940199896.html"
   },
   {
-    "id": 240,
+    "id": 239,
     "category": "vehicles",
-    "title": "2016 scion frs 6 speed manual transmission low miles !!!",
-    "description": "2016 scion frs 6 speed manual transmission low miles !!! — queens",
-    "price": "$10,900",
-    "location": "queens",
+    "title": "2007 BMW 328i",
+    "description": "2007 BMW 328i — Roslyn",
+    "price": "$4,900",
+    "location": "Roslyn",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://newyork.craigslist.org/que/cto/d/rego-park-2016-scion-frs-speed-manual/7940160439.html"
+    "link": "https://newyork.craigslist.org/lgi/cto/d/roslyn-2007-bmw-328i/7940199742.html"
+  },
+  {
+    "id": 240,
+    "category": "vehicles",
+    "title": "2011 Mercedes ML350",
+    "description": "2011 Mercedes ML350",
+    "price": "$4,950",
+    "location": "New York",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://newyork.craigslist.org/que/cto/d/new-york-2011-mercedes-ml350/7940198635.html"
   },
   {
     "id": 241,
     "category": "vehicles",
-    "title": "Audi A6 Premium Sport",
-    "description": "Audi A6 Premium Sport — Brooklyn",
-    "price": "$8,600",
+    "title": "2011 Mercedes ML350",
+    "description": "2011 Mercedes ML350",
+    "price": "$4,950",
+    "location": "New York",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": true,
+    "link": "https://newyork.craigslist.org/brx/cto/d/new-york-2011-mercedes-ml350/7940198288.html"
+  },
+  {
+    "id": 242,
+    "category": "vehicles",
+    "title": "Nissan Versa Note 2015",
+    "description": "Nissan Versa Note 2015 — Brooklyn",
+    "price": "$7,000",
     "location": "Brooklyn",
     "languages": [
       "en"
@@ -2195,59 +2206,59 @@ export const SAMPLE_LISTINGS = [
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://newyork.craigslist.org/brk/ctd/d/brooklyn-audi-a6-premium-sport/7940156318.html"
-  },
-  {
-    "id": 242,
-    "category": "vehicles",
-    "title": "2004 jeep wrangler unlimited 135k great shape",
-    "description": "2004 jeep wrangler unlimited 135k great shape — Midwood",
-    "price": "$5,400",
-    "location": "Midwood",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": false,
-    "link": "https://newyork.craigslist.org/brk/cto/d/brooklyn-2004-jeep-wrangler-unlimited/7940148465.html"
+    "link": "https://newyork.craigslist.org/brk/cto/d/brooklyn-nissan-versa-note-2015/7940193968.html"
   },
   {
     "id": 243,
     "category": "vehicles",
-    "title": "2024 Audi Q5 quattro S line Prem Plus 45 TFSI AWD Premium 4dr S Call/Text 516- 6",
-    "description": "2024 Audi Q5 quattro S line Prem Plus 45 TFSI AWD Premium 4dr S Call/Text 516- 6 — + EVERYONE FINANCED!!  PODEMOS FINANCIAR A CUALQUIERA!",
-    "price": "$25,995",
-    "location": "+ EVERYONE FINANCED!!  PODEMOS FINANCIAR A CUALQUIERA!",
+    "title": "2018 Nissan Versa Low miles",
+    "description": "2018 Nissan Versa Low miles — Brooklyn",
+    "price": "$5,900",
+    "location": "Brooklyn",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://newyork.craigslist.org/brk/ctd/d/bethpage-2024-audi-q5-quattro-line-prem/7940145612.html"
+    "link": "https://newyork.craigslist.org/brk/cto/d/brooklyn-2018-nissan-versa-low-miles/7940192527.html"
   },
   {
     "id": 244,
     "category": "vehicles",
-    "title": "◼️ 2009 Honda Civic LX Sedan – Only 60,000 Original Miles Clean Title",
-    "description": "◼️ 2009 Honda Civic LX Sedan – Only 60,000 Original Miles Clean Title — La mirada",
-    "price": "$3,000",
-    "location": "La mirada",
+    "title": "1964 Ford Falcon Sprint convertible",
+    "description": "1964 Ford Falcon Sprint convertible — westside-southbay-310",
+    "price": "$25,500",
+    "location": "westside-southbay-310",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://losangeles.craigslist.org/lgb/cto/d/la-mirada-honda-civic-lx-sedan-only/7940171451.html"
+    "link": "https://losangeles.craigslist.org/wst/cto/d/hermosa-beach-1964-ford-falcon-sprint/7940209030.html"
   },
   {
     "id": 245,
     "category": "vehicles",
-    "title": "2014 Mercedes E 350 . Good condition",
-    "description": "2014 Mercedes E 350 . Good condition",
-    "price": "$9,500",
+    "title": "🚗 BUY OR LEASE YOUR NEXT CAR WITH EASE – NO DEALER HASSLES! 🚗",
+    "description": "🚗 BUY OR LEASE YOUR NEXT CAR WITH EASE – NO DEALER HASSLES! 🚗 — westside-southbay-310",
+    "price": "$0",
+    "location": "westside-southbay-310",
+    "languages": [
+      "en"
+    ],
+    "contact": "View Original Listing",
+    "posted": "2026-06-11",
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/wst/ctd/d/hawthorne-buy-or-lease-your-next-car/7940206556.html"
+  },
+  {
+    "id": 246,
+    "category": "vehicles",
+    "title": "2017 Porsche Macan GTS",
+    "description": "2017 Porsche Macan GTS",
+    "price": "$19,500",
     "location": "Los Angeles",
     "languages": [
       "en"
@@ -2255,96 +2266,81 @@ export const SAMPLE_LISTINGS = [
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://losangeles.craigslist.org/lac/cto/d/los-angeles-2014-mercedes-350-good/7940170852.html"
-  },
-  {
-    "id": 246,
-    "category": "vehicles",
-    "title": "2019 Ford F350 Utility 6.2L Gas,8ft Knapheide bed, very clean truck!",
-    "description": "2019 Ford F350 Utility 6.2L Gas,8ft Knapheide bed, very clean truck! — central LA 213/323",
-    "price": "$24,995",
-    "location": "central LA 213/323",
-    "languages": [
-      "en"
-    ],
-    "contact": "View Original Listing",
-    "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://losangeles.craigslist.org/lac/ctd/d/garden-grove-2019-ford-f350-utility-62l/7940170738.html"
+    "link": "https://losangeles.craigslist.org/lac/cto/d/los-angeles-2017-porsche-macan-gts/7940206541.html"
   },
   {
     "id": 247,
     "category": "vehicles",
-    "title": "Audi 2006 Avant Sport Quattro 6",
-    "description": "Audi 2006 Avant Sport Quattro 6 — westside-southbay-310",
-    "price": "$5,500",
-    "location": "westside-southbay-310",
+    "title": "2016 Honda Accord LX",
+    "description": "2016 Honda Accord LX",
+    "price": "$8,650",
+    "location": "Los Angeles",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://losangeles.craigslist.org/wst/cto/d/venice-audi-2006-avant-sport-quattro/7940170515.html"
+    "link": "https://losangeles.craigslist.org/lac/cto/d/los-angeles-2016-honda-accord-lx/7940206521.html"
   },
   {
     "id": 248,
     "category": "vehicles",
-    "title": "2003 Volvo S60 Compact Family Sedan 115,000 ORG OWNR Runs EXCLNT 35MPG",
-    "description": "2003 Volvo S60 Compact Family Sedan 115,000 ORG OWNR Runs EXCLNT 35MPG — Los Angeles/Hollywood",
-    "price": "$3,000",
-    "location": "Los Angeles/Hollywood",
+    "title": "2013 Lexus RX350",
+    "description": "2013 Lexus RX350",
+    "price": "$13,800",
+    "location": "Los Angeles",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
-    "featured": true,
-    "link": "https://losangeles.craigslist.org/lac/cto/d/los-angeles-2003-volvo-s60-compact/7940158312.html"
+    "featured": false,
+    "link": "https://losangeles.craigslist.org/lac/cto/d/los-angeles-2013-lexus-rx350/7940206509.html"
   },
   {
     "id": 249,
     "category": "vehicles",
-    "title": "2012 acura rdx turbo",
-    "description": "2012 acura rdx turbo — north hollywood",
-    "price": "$2,750",
-    "location": "north hollywood",
+    "title": "79 FORD F-250",
+    "description": "79 FORD F-250 — Lynwood",
+    "price": "$1,850",
+    "location": "Lynwood",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://losangeles.craigslist.org/sfv/cto/d/north-hollywood-2012-acura-rdx-turbo/7940170262.html"
+    "link": "https://losangeles.craigslist.org/sgv/cto/d/lynwood-79-ford-250/7940206347.html"
   },
   {
     "id": 250,
     "category": "vehicles",
-    "title": "2019 Ford F350 Utility 6.2L Gas,9ft Harbor bed,1600lb Pwr lift gate!",
-    "description": "2019 Ford F350 Utility 6.2L Gas,9ft Harbor bed,1600lb Pwr lift gate! — central LA 213/323",
-    "price": "$26,995",
-    "location": "central LA 213/323",
+    "title": "2013 Kia Soul",
+    "description": "2013 Kia Soul — Huntington Park",
+    "price": "$2,500",
+    "location": "Huntington Park",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": true,
-    "link": "https://losangeles.craigslist.org/lac/ctd/d/garden-grove-2019-ford-f350-utility-62l/7940169754.html"
+    "link": "https://losangeles.craigslist.org/lac/cto/d/huntington-park-2013-kia-soul/7940206132.html"
   },
   {
     "id": 251,
     "category": "vehicles",
-    "title": "2019 Chevrolet 2500 Utility 6.0L Gas,4 new tires,ladder rack!",
-    "description": "2019 Chevrolet 2500 Utility 6.0L Gas,4 new tires,ladder rack! — central LA 213/323",
-    "price": "$30,999",
-    "location": "central LA 213/323",
+    "title": "▲2008 HONDA CR-V EX-L 2WD 4-CYL *ONE-OWNER* LOW MILES- RELIABLE!►",
+    "description": "▲2008 HONDA CR-V EX-L 2WD 4-CYL *ONE-OWNER* LOW MILES- RELIABLE!► — San Luis Obispo",
+    "price": "$10,995",
+    "location": "San Luis Obispo",
     "languages": [
       "en"
     ],
     "contact": "View Original Listing",
     "posted": "2026-06-11",
     "featured": false,
-    "link": "https://losangeles.craigslist.org/lac/ctd/d/garden-grove-2019-chevrolet-2500/7940168589.html"
+    "link": "https://losangeles.craigslist.org/wst/ctd/d/san-luis-obispo-2008-honda-cr-ex-2wd/7940205961.html"
   }
 ];

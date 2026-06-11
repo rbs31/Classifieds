@@ -352,6 +352,10 @@ function App() {
       <footer className="footer">
         <p>📋 Classifieds — North America Multi-Ethnic Classified Ads</p>
         <p>Connecting communities through language 🌐</p>
+        <p style={{fontSize:'13px',marginTop:'8px'}}>
+          <a href="/about.html" style={{color:'#4fc3f7',textDecoration:'none'}}>About Classifieds</a> · 
+          <a href="https://github.com/rbs31/Classifieds" style={{color:'#4fc3f7',textDecoration:'none'}}>GitHub</a>
+        </p>
       </footer>
     </div>
   )
