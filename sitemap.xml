@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sitemap.xml for Classifieds (cf.jx0.ai) -->
+<!-- Last updated: 2026-06-11 -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://cf.jx0.ai/sitemap-pages.xml</loc>
+    <lastmod>2026-06-11</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://cf.jx0.ai/sitemap-listings.xml</loc>
+    <lastmod>2026-06-11</lastmod>
+  </sitemap>
+</sitemapindex>

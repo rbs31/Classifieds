@@ -1,0 +1,12 @@
+# robots.txt for Classifieds (cf.jx0.ai)
+# Last updated: 2026-06-11
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://cf.jx0.ai/sitemap.xml
+
+# Crawl delay (be nice to servers)
+Crawl-delay: 1
