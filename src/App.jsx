@@ -330,7 +330,13 @@ function App() {
             <div className="detail-desc">{selectedListing.description}</div>
             <div className="detail-row">📍 <span>Location:</span> {selectedListing.location}</div>
             <div className="detail-row">📅 <span>Posted:</span> {selectedListing.posted}</div>
-            <div className="detail-row">📞 <span>Contact:</span> {selectedListing.contact}</div>
+            <div className="detail-row">📞 <span>Contact:</span>{' '}
+              {selectedListing.link ? (
+                <a href={selectedListing.link} target="_blank" rel="noopener noreferrer" style={{color:'#4fc3f7',textDecoration:'underline'}}>View Original Listing ↗</a>
+              ) : (
+                <span>{selectedListing.contact}</span>
+              )}
+            </div>
             <div className="detail-row">🌐 <span>Languages:</span>{' '}
               {selectedListing.languages.map(code => (
                 <span key={code} className={`lang-tag ${showLangMatch && code === selectedLang ? 'matched' : ''}`}>

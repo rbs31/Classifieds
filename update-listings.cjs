@@ -22,11 +22,11 @@ const SOURCES = [
   { city: 'Houston',       site: 'houston',    cat: 'apa', label: 'Housing' },
   { city: 'Boston',        site: 'boston',     cat: 'apa', label: 'Housing' },
   { city: 'Miami',         site: 'miami',      cat: 'apa', label: 'Housing' },
-  // Services
-  { city: 'New York',      site: 'newyork',    cat: 'srv', label: 'Services' },
-  { city: 'Los Angeles',   site: 'losangeles', cat: 'srv', label: 'Services' },
-  { city: 'San Francisco', site: 'sfbay',      cat: 'srv', label: 'Services' },
-  { city: 'Toronto',       site: 'toronto',    cat: 'srv', label: 'Services' },
+  // Services — using labor/hauling category for real service listings
+  { city: 'New York',      site: 'newyork',    cat: 'lbs', label: 'Services' },
+  { city: 'Los Angeles',   site: 'losangeles', cat: 'lbs', label: 'Services' },
+  { city: 'San Francisco', site: 'sfbay',      cat: 'lbs', label: 'Services' },
+  { city: 'Toronto',       site: 'toronto',    cat: 'lbs', label: 'Services' },
   // For Sale
   { city: 'New York',      site: 'newyork',    cat: 'sss', label: 'For Sale' },
   { city: 'Los Angeles',   site: 'losangeles', cat: 'sss', label: 'For Sale' },
@@ -112,7 +112,7 @@ function parseCraigslist(html, city, label) {
 
     // 提取标题
     const titleMatch = block.match(/<div[^>]*class="title[^"]*"[^>]*>([\s\S]*?)<\/div>/);
-    const title = titleMatch ? titleMatch[1].trim() : '';
+    const title = titleMatch ? decodeHtml(titleMatch[1].trim()) : '';
     if (!title || title.length < 5) continue;
 
     // 提取链接
@@ -121,11 +121,11 @@ function parseCraigslist(html, city, label) {
 
     // 提取价格
     const priceMatch = block.match(/<div[^>]*class="price[^"]*"[^>]*>([\s\S]*?)<\/div>/);
-    const price = priceMatch ? priceMatch[1].trim() : '';
+    const price = priceMatch ? decodeHtml(priceMatch[1].trim()) : '';
 
     // 提取位置
     const locMatch = block.match(/<div[^>]*class="location[^"]*"[^>]*>([\s\S]*?)<\/div>/);
-    const location = locMatch ? locMatch[1].trim() : '';
+    const location = locMatch ? decodeHtml(locMatch[1].trim()) : '';
 
     // 检测语言
     const languages = detectLangs(title, location, city);
@@ -165,6 +165,19 @@ function parseCraigslist(html, city, label) {
   }
 
   return listings;
+}
+
+// HTML 实体解码
+function decodeHtml(text) {
+  return text
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&#x27;/g, "'")
+    .replace(/&#x2F;/g, '/')
+    .replace(/&nbsp;/g, ' ');
 }
 
 // 语言检测
@@ -225,13 +238,14 @@ async function main() {
           id: id++,
           category: item.category,
           title: item.title,
-          description: item.title + (item.location ? ` — ${item.location}` : ''),
+          description: item.title + (item.location && item.location !== src.city ? ` — ${item.location}` : ''),
           price: item.price || 'Contact for price',
           location: item.location || src.city,
           languages: item.languages,
-          contact: 'See listing',
+          contact: item.link ? 'View Original Listing' : 'See listing',
           posted: today,
           featured: Math.random() > 0.7,
+          link: item.link || '',
         });
       }
       console.log(`  ✅ ${src.city}/${src.label}: ${selected.length} 条 (共解析 ${parsed.length} 条)`);
