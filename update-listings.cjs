@@ -31,6 +31,15 @@ const SOURCES = [
   { city: 'New York',      site: 'newyork',    cat: 'sss', label: 'For Sale' },
   { city: 'Los Angeles',   site: 'losangeles', cat: 'sss', label: 'For Sale' },
   { city: 'San Francisco', site: 'sfbay',      cat: 'sss', label: 'For Sale' },
+  // Jobs
+  { city: 'New York',      site: 'newyork',    cat: 'jjj', label: 'Jobs' },
+  { city: 'Los Angeles',   site: 'losangeles', cat: 'jjj', label: 'Jobs' },
+  { city: 'San Francisco', site: 'sfbay',      cat: 'jjj', label: 'Jobs' },
+  { city: 'Toronto',       site: 'toronto',    cat: 'jjj', label: 'Jobs' },
+  { city: 'Vancouver',     site: 'vancouver',  cat: 'jjj', label: 'Jobs' },
+  { city: 'Seattle',       site: 'seattle',    cat: 'jjj', label: 'Jobs' },
+  { city: 'Chicago',       site: 'chicago',    cat: 'jjj', label: 'Jobs' },
+  { city: 'Houston',       site: 'houston',    cat: 'jjj', label: 'Jobs' },
   // Vehicles
   { city: 'New York',      site: 'newyork',    cat: 'cta', label: 'Vehicles' },
   { city: 'Los Angeles',   site: 'losangeles', cat: 'cta', label: 'Vehicles' },
